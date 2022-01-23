@@ -2,7 +2,7 @@
 
 Simple repository for manipulating demographic data from [Data USA](https://datausa.io/).
 
-## Example
+## Example 1: Foreign Country of Origin in New Mexico
 
 ### `index.ts`
 
