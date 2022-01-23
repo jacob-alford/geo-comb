@@ -160,3 +160,113 @@ main()
 
 1. `git clone https://github.com/jacob-alford/geo-comb.git`
 2. `yarn && yarn start`
+
+## Example 2: Chinese speakers by MSA (Metropolitan Statistical Area)
+
+### Program
+
+```ts
+import * as IO from 'fp-ts/IO'
+import * as Console from 'fp-ts/Console'
+import * as N from 'fp-ts/number'
+import * as O from 'fp-ts/Option'
+import * as Ord from 'fp-ts/Ord'
+import * as RA from 'fp-ts/ReadonlyArray'
+import * as RR from 'fp-ts/ReadonlyRecord'
+import * as RT from 'fp-ts/ReaderTask'
+import * as RTE from 'fp-ts/ReaderTaskEither'
+import { flow, pipe, tuple } from 'fp-ts/function'
+
+import * as REST from './REST'
+import * as API from './API'
+
+const main: IO.IO<void> = () =>
+  pipe(
+    API.getLanguagesByMSA(),
+    RTE.map(
+      flow(
+        ({ data }) => data,
+        RA.filterMap(
+          ({
+            'Language Spoken at Home': language,
+            'Slug MSA': msa,
+            'Languages Spoken': speakers,
+          }) =>
+            pipe(
+              tuple(msa, speakers),
+              O.fromPredicate(
+                () => language === 'Chinese (Incl. Mandarin, Cantonese)',
+              ),
+            ),
+        ),
+        RA.sort(Ord.tuple(Ord.trivial, N.Ord)),
+      ),
+    ),
+    RTE.fold(
+      e => RT.fromIO(Console.error(e)),
+      data => RT.fromIO(Console.log(data)),
+    ),
+    rt => rt(REST.env)(),
+  )
+
+main()
+```
+
+### Output
+
+```json
+[
+  ["louisvillejefferson-county-ky-in", 2126],
+  ["jacksonville-fl-31000US27260", 4660],
+  ["rochester-ny-31000US40380", 4674],
+  ["buffalo-cheektowaga-niagara-falls-ny", 5614],
+  ["worcester-ma-ct", 5704],
+  ["milwaukee-waukesha-west-allis-wi", 6004],
+  ["nashville-davidson-murfreesboro-franklin-tn", 6017],
+  ["richmond-va-31000US40060", 6080],
+  ["providence-warwick-ri-ma", 6271],
+  ["virginia-beach-norfolk-newport-news-va-nc", 6728],
+  ["oxnard-thousand-oaks-ventura-ca", 7711],
+  ["san-antonio-new-braunfels-tx", 7884],
+  ["new-haven-milford-ct", 8273],
+  ["albany-schenectady-troy-ny", 8289],
+  ["cleveland-elyria-oh", 8555],
+  ["charlotte-concord-gastonia-nc-sc", 8717],
+  ["salt-lake-city-ut-31000US41620", 9037],
+  ["bridgeport-stamford-norwalk-ct", 9170],
+  ["kansas-city-mo-ks", 9291],
+  ["indianapolis-carmel-anderson-in", 9632],
+  ["pittsburgh-pa-31000US38300", 10235],
+  ["hartford-west-hartford-east-hartford-ct", 11041],
+  ["cincinnati-oh-ky-in", 11572],
+  ["raleigh-nc-31000US39580", 11869],
+  ["denver-aurora-lakewood-co", 13253],
+  ["tampa-st-petersburg-clearwater-fl", 13809],
+  ["orlando-kissimmee-sanford-fl", 14074],
+  ["columbus-oh-31000US18140", 17234],
+  ["st-louis-mo-il", 17291],
+  ["minneapolis-st-paul-bloomington-mn-wi", 18202],
+  ["austin-round-rock-tx", 18567],
+  ["detroit-warren-dearborn-mi", 20966],
+  ["baltimore-columbia-towson-md", 23226],
+  ["miami-fort-lauderdale-west-palm-beach-fl", 23735],
+  ["phoenix-mesa-scottsdale-az", 26039],
+  ["portland-vancouver-hillsboro-or-wa", 29777],
+  ["las-vegas-henderson-paradise-nv", 31133],
+  ["atlanta-sandy-springs-roswell-ga", 42048],
+  ["san-diego-carlsbad-ca", 51997],
+  ["riverside-san-bernardino-ontario-ca", 54073],
+  ["sacramento-roseville-arden-arcade-ca", 54386],
+  ["dallas-fort-worth-arlington-tx", 61390],
+  ["philadelphia-camden-wilmington-pa-nj-de-md", 76740],
+  ["houston-the-woodlands-sugar-land-tx", 81287],
+  ["washington-arlington-alexandria-dc-va-md-wv", 97759],
+  ["chicago-naperville-elgin-il-in-wi", 98847],
+  ["seattle-tacoma-bellevue-wa", 116109],
+  ["boston-cambridge-newton-ma-nh", 138342],
+  ["san-jose-sunnyvale-santa-clara-ca", 176606],
+  ["san-francisco-oakland-hayward-ca", 392697],
+  ["los-angeles-long-beach-anaheim-ca", 487715],
+  ["new-york-newark-jersey-city-ny-nj-pa", 654256]
+]
+```

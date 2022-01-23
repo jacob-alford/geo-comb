@@ -30,6 +30,9 @@ interface DataUSAParams_ {
 }
 */
 
+///////////////////////////////////////////
+//  Total Population by State / Birthplace
+///////////////////////////////////////////
 export interface TotalForeignPopulationByStateAndBirthplaceParam {
   Nativity: 2
   measure: 'Total Population'
@@ -104,5 +107,125 @@ export const getTotalForeignPopulationByStateAndBirthplace: () => RTE.ReaderTask
           totalForeignPopulationByStateAndBirthplace.decode,
           E.mapLeft(flow(REST.decodeError)),
         ),
+      ),
+    )
+
+///////////////////////////////////////////
+//  Language by State
+///////////////////////////////////////////
+export interface LanguagesByStateParams {
+  year: 'latest'
+  measure: 'Languages Spoken'
+  drilldowns: 'State,Language Spoken at Home'
+}
+
+const languagesByStateParams: LanguagesByStateParams = {
+  year: 'latest',
+  measure: 'Languages Spoken',
+  drilldowns: 'State,Language Spoken at Home',
+}
+
+interface StateLanguagePopulation {
+  'ID State': string
+  State: string
+  'ID Language Spoken at Home': number
+  'Language Spoken at Home': string
+  'ID Year': number
+  Year: string
+  'Languages Spoken': number
+  'Slug State': string
+}
+
+interface LanguagesByState {
+  data: ReadonlyArray<StateLanguagePopulation>
+}
+
+const languagesByState = t.type({
+  data: t.array(
+    t.type({
+      'ID State': t.string,
+      State: t.string,
+      'ID Language Spoken at Home': t.number,
+      'Language Spoken at Home': t.string,
+      'ID Year': t.number,
+      Year: t.string,
+      'Languages Spoken': t.number,
+      'Slug State': t.string,
+    }),
+  ),
+})
+
+export const getLanguagesByState: () => RTE.ReaderTaskEither<
+  Env,
+  REST.RestError,
+  LanguagesByState
+> =
+  () =>
+  ({ get }) =>
+    pipe(
+      get(extendBaseUrl(), languagesByStateParams),
+      TE.map(a => a.data),
+      TE.chainEitherK(
+        flow(languagesByState.decode, E.mapLeft(flow(REST.decodeError))),
+      ),
+    )
+
+///////////////////////////////////////////
+//  Language by MSA
+///////////////////////////////////////////
+export interface LanguagesByMSAParams {
+  year: 'latest'
+  measure: 'Languages Spoken'
+  drilldowns: 'MSA,Language Spoken at Home'
+}
+
+const languagesByMSAParams: LanguagesByMSAParams = {
+  year: 'latest',
+  measure: 'Languages Spoken',
+  drilldowns: 'MSA,Language Spoken at Home',
+}
+
+interface MSALanguagePopulation {
+  'ID MSA': string
+  MSA: string
+  'ID Language Spoken at Home': number
+  'Language Spoken at Home': string
+  'ID Year': number
+  Year: string
+  'Languages Spoken': number
+  'Slug MSA': string
+}
+
+interface LanguagesByMSA {
+  data: ReadonlyArray<MSALanguagePopulation>
+}
+
+const languagesByMSA = t.type({
+  data: t.array(
+    t.type({
+      'ID MSA': t.string,
+      MSA: t.string,
+      'ID Language Spoken at Home': t.number,
+      'Language Spoken at Home': t.string,
+      'ID Year': t.number,
+      Year: t.string,
+      'Languages Spoken': t.number,
+      'Slug MSA': t.string,
+    }),
+  ),
+})
+
+export const getLanguagesByMSA: () => RTE.ReaderTaskEither<
+  Env,
+  REST.RestError,
+  LanguagesByMSA
+> =
+  () =>
+  ({ get }) =>
+    pipe(
+      get(extendBaseUrl(), languagesByMSAParams),
+      TE.map(a => a.data),
+      TE.chainEitherK(
+        flow(languagesByMSA.decode, E.mapLeft(flow(REST.decodeError))),
       ),
     )

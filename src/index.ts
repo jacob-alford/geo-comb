@@ -1,29 +1,37 @@
 import * as IO from 'fp-ts/IO'
 import * as Console from 'fp-ts/Console'
 import * as N from 'fp-ts/number'
+import * as O from 'fp-ts/Option'
+import * as Ord from 'fp-ts/Ord'
 import * as RA from 'fp-ts/ReadonlyArray'
 import * as RR from 'fp-ts/ReadonlyRecord'
 import * as RT from 'fp-ts/ReaderTask'
 import * as RTE from 'fp-ts/ReaderTaskEither'
-import { flow, pipe } from 'fp-ts/function'
+import { flow, pipe, tuple } from 'fp-ts/function'
 
 import * as REST from './REST'
 import * as API from './API'
 
 const main: IO.IO<void> = () =>
   pipe(
-    API.getTotalForeignPopulationByStateAndBirthplace(),
+    API.getLanguagesByMSA(),
     RTE.map(
       flow(
         ({ data }) => data,
-        RA.filter(({ 'Slug State': state }) => state === 'new-mexico'),
-        RA.foldMap(RR.getUnionMonoid(RR.getUnionMonoid(N.MonoidSum)))(
+        RA.filterMap(
           ({
-            'Slug State': state,
-            'Total Population': population,
-            Birthplace: birthplace,
-          }) => RR.singleton(state, RR.singleton(birthplace, population)),
+            'Language Spoken at Home': language,
+            'Slug MSA': msa,
+            'Languages Spoken': speakers,
+          }) =>
+            pipe(
+              tuple(msa, speakers),
+              O.fromPredicate(
+                () => language === 'Chinese (Incl. Mandarin, Cantonese)',
+              ),
+            ),
         ),
+        RA.sort(Ord.tuple(Ord.trivial, N.Ord)),
       ),
     ),
     RTE.fold(
