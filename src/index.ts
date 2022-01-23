@@ -14,18 +14,18 @@ import * as API from './API'
 
 const main: IO.IO<void> = () =>
   pipe(
-    API.getLanguagesByMSA(),
+    API.getLanguagesByPlace(),
     RTE.map(
       flow(
         ({ data }) => data,
         RA.filterMap(
           ({
             'Language Spoken at Home': language,
-            'Slug MSA': msa,
+            'Slug Place': place,
             'Languages Spoken': speakers,
           }) =>
             pipe(
-              tuple(msa, speakers),
+              tuple(place, speakers),
               O.fromPredicate(
                 () => language === 'Chinese (Incl. Mandarin, Cantonese)',
               ),

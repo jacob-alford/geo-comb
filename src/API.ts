@@ -229,3 +229,63 @@ export const getLanguagesByMSA: () => RTE.ReaderTaskEither<
         flow(languagesByMSA.decode, E.mapLeft(flow(REST.decodeError))),
       ),
     )
+
+///////////////////////////////////////////
+//  Language by Place
+///////////////////////////////////////////
+export interface LanguagesByPlaceParams {
+  year: 'latest'
+  measure: 'Languages Spoken'
+  drilldowns: 'Place,Language Spoken at Home'
+}
+
+const languagesByPlaceParams: LanguagesByPlaceParams = {
+  year: 'latest',
+  measure: 'Languages Spoken',
+  drilldowns: 'Place,Language Spoken at Home',
+}
+
+interface PlaceLanguagePopulation {
+  'ID Place': string
+  Place: string
+  'ID Language Spoken at Home': number
+  'Language Spoken at Home': string
+  'ID Year': number
+  Year: string
+  'Languages Spoken': number
+  'Slug Place': string
+}
+
+interface LanguagesByPlace {
+  data: ReadonlyArray<PlaceLanguagePopulation>
+}
+
+const languagesByPlace = t.type({
+  data: t.array(
+    t.type({
+      'ID Place': t.string,
+      Place: t.string,
+      'ID Language Spoken at Home': t.number,
+      'Language Spoken at Home': t.string,
+      'ID Year': t.number,
+      Year: t.string,
+      'Languages Spoken': t.number,
+      'Slug Place': t.string,
+    }),
+  ),
+})
+
+export const getLanguagesByPlace: () => RTE.ReaderTaskEither<
+  Env,
+  REST.RestError,
+  LanguagesByPlace
+> =
+  () =>
+  ({ get }) =>
+    pipe(
+      get(extendBaseUrl(), languagesByPlaceParams),
+      TE.map(a => a.data),
+      TE.chainEitherK(
+        flow(languagesByPlace.decode, E.mapLeft(flow(REST.decodeError))),
+      ),
+    )
