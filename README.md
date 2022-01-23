@@ -151,7 +151,7 @@ main()
 }
 ```
 
-## Prerequisits
+## Prerequisites
 
 1. Node ([NVM](https://github.com/nvm-sh/nvm) highly recommended)
 2. Yarn
