@@ -158,5 +158,5 @@ main()
 
 ## Usage
 
-1. `git clone ...`
+1. `git clone https://github.com/jacob-alford/geo-comb.git`
 2. `yarn && yarn start`
