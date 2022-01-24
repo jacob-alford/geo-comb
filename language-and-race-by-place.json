@@ -1,0 +1,3970 @@
+{
+  "boston-ma": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 417586
+      },
+      {
+        "language": "Spanish",
+        "speakers": 108710
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 32287
+      },
+      {
+        "language": "Haitian",
+        "speakers": 23444
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 13455
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 8569
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 7453
+      },
+      {
+        "language": "Russian",
+        "speakers": 5149
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 4274
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 3806
+      },
+      {
+        "language": "Hindi",
+        "speakers": 3663
+      },
+      {
+        "language": "Arabic",
+        "speakers": 3307
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 2899
+      },
+      {
+        "language": "Greek",
+        "speakers": 2458
+      },
+      {
+        "language": "Korean",
+        "speakers": 2167
+      },
+      {
+        "language": "German",
+        "speakers": 2122
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 2013
+      },
+      {
+        "language": "Italian",
+        "speakers": 1974
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 1568
+      },
+      {
+        "language": "Polish",
+        "speakers": 1556
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 1511
+      },
+      {
+        "language": "Japanese",
+        "speakers": 1314
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 1155
+      },
+      {
+        "language": "Telugu",
+        "speakers": 1042
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 893
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 789
+      },
+      {
+        "language": "Bengali",
+        "speakers": 719
+      },
+      {
+        "language": "Urdu",
+        "speakers": 709
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 671
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 643
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 637
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 590
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 583
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 510
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 400
+      },
+      {
+        "language": "Tamil",
+        "speakers": 334
+      },
+      {
+        "language": "Khmer",
+        "speakers": 282
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 225
+      },
+      {
+        "language": "Armenian",
+        "speakers": 199
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 62
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 0
+      },
+      {
+        "language": "Hmong",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 312044,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 154278,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 66872,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 57517,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 33180,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 26075,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 18820,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 17946,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 4554,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 1444,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 579,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 525,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 370,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 91,
+        "hispanic": true
+      }
+    ]
+  },
+  "charlotte-nc": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 646362
+      },
+      {
+        "language": "Spanish",
+        "speakers": 106450
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 6097
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 5945
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 5005
+      },
+      {
+        "language": "Telugu",
+        "speakers": 4596
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 4551
+      },
+      {
+        "language": "Hindi",
+        "speakers": 4262
+      },
+      {
+        "language": "Arabic",
+        "speakers": 4088
+      },
+      {
+        "language": "Tamil",
+        "speakers": 3997
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 3017
+      },
+      {
+        "language": "German",
+        "speakers": 2648
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 2401
+      },
+      {
+        "language": "Russian",
+        "speakers": 2246
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 2234
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 1918
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 1836
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 1821
+      },
+      {
+        "language": "Khmer",
+        "speakers": 1678
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 1528
+      },
+      {
+        "language": "Greek",
+        "speakers": 1413
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 1323
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 1094
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 813
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 804
+      },
+      {
+        "language": "Hmong",
+        "speakers": 795
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 765
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 763
+      },
+      {
+        "language": "Korean",
+        "speakers": 746
+      },
+      {
+        "language": "Polish",
+        "speakers": 726
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 608
+      },
+      {
+        "language": "Urdu",
+        "speakers": 590
+      },
+      {
+        "language": "Italian",
+        "speakers": 498
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 424
+      },
+      {
+        "language": "Japanese",
+        "speakers": 423
+      },
+      {
+        "language": "Haitian",
+        "speakers": 275
+      },
+      {
+        "language": "Bengali",
+        "speakers": 251
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 249
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 157
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 94
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 53
+      },
+      {
+        "language": "Armenian",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 359079,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 307777,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 66384,
+        "hispanic": true
+      },
+      {
+        "race": "White Alone",
+        "population": 56586,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 54838,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 26007,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 5427,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 3019,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 2340,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 2235,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 1452,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 322,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 241,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 0,
+        "hispanic": true
+      }
+    ]
+  },
+  "chicago-il": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 1635916
+      },
+      {
+        "language": "Spanish",
+        "speakers": 596765
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 53111
+      },
+      {
+        "language": "Polish",
+        "speakers": 39758
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 18407
+      },
+      {
+        "language": "Arabic",
+        "speakers": 18272
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 12530
+      },
+      {
+        "language": "Russian",
+        "speakers": 11479
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 11262
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 10636
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 10114
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 9522
+      },
+      {
+        "language": "Urdu",
+        "speakers": 8989
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 8063
+      },
+      {
+        "language": "Hindi",
+        "speakers": 7960
+      },
+      {
+        "language": "Greek",
+        "speakers": 7849
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 7820
+      },
+      {
+        "language": "Korean",
+        "speakers": 7310
+      },
+      {
+        "language": "German",
+        "speakers": 5734
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 5711
+      },
+      {
+        "language": "Italian",
+        "speakers": 5615
+      },
+      {
+        "language": "Japanese",
+        "speakers": 4907
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 3895
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 3352
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 3153
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 3096
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 2689
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 2425
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 2351
+      },
+      {
+        "language": "Haitian",
+        "speakers": 2061
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 1850
+      },
+      {
+        "language": "Telugu",
+        "speakers": 1545
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 1435
+      },
+      {
+        "language": "Khmer",
+        "speakers": 1254
+      },
+      {
+        "language": "Tamil",
+        "speakers": 988
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 923
+      },
+      {
+        "language": "Armenian",
+        "speakers": 636
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 583
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 582
+      },
+      {
+        "language": "Bengali",
+        "speakers": 513
+      },
+      {
+        "language": "Hmong",
+        "speakers": 101
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 901941,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 768524,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 467183,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 252025,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 184768,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 54584,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 30394,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 13907,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 7858,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 5171,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 4136,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 1685,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 996,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 787,
+        "hispanic": true
+      }
+    ]
+  },
+  "columbus-oh": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 692619
+      },
+      {
+        "language": "Spanish",
+        "speakers": 41069
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 21134
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 10597
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 9599
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 9424
+      },
+      {
+        "language": "Arabic",
+        "speakers": 6711
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 4438
+      },
+      {
+        "language": "Hindi",
+        "speakers": 4256
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 3407
+      },
+      {
+        "language": "Telugu",
+        "speakers": 3375
+      },
+      {
+        "language": "Russian",
+        "speakers": 2720
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 2415
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 2402
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 2070
+      },
+      {
+        "language": "Bengali",
+        "speakers": 1981
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 1862
+      },
+      {
+        "language": "Korean",
+        "speakers": 1800
+      },
+      {
+        "language": "German",
+        "speakers": 1786
+      },
+      {
+        "language": "Khmer",
+        "speakers": 1681
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 1640
+      },
+      {
+        "language": "Urdu",
+        "speakers": 1511
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 1446
+      },
+      {
+        "language": "Tamil",
+        "speakers": 1243
+      },
+      {
+        "language": "Japanese",
+        "speakers": 1028
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 972
+      },
+      {
+        "language": "Italian",
+        "speakers": 885
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 821
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 775
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 538
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 430
+      },
+      {
+        "language": "Haitian",
+        "speakers": 416
+      },
+      {
+        "language": "Greek",
+        "speakers": 336
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 328
+      },
+      {
+        "language": "Armenian",
+        "speakers": 220
+      },
+      {
+        "language": "Polish",
+        "speakers": 215
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 135
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 68
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 40
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 0
+      },
+      {
+        "language": "Hmong",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 486597,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 261443,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 53464,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 35394,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 33256,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 21876,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 2447,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 2402,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 2353,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 1783,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 845,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 193,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 20,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 0,
+        "hispanic": true
+      }
+    ]
+  },
+  "dallas-tx": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 708466
+      },
+      {
+        "language": "Spanish",
+        "speakers": 458225
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 9120
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 7271
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 6546
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 5952
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 5789
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 5526
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 4714
+      },
+      {
+        "language": "Hindi",
+        "speakers": 3978
+      },
+      {
+        "language": "Arabic",
+        "speakers": 2944
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 2799
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 2204
+      },
+      {
+        "language": "Urdu",
+        "speakers": 2053
+      },
+      {
+        "language": "Russian",
+        "speakers": 1858
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 1596
+      },
+      {
+        "language": "Korean",
+        "speakers": 1483
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 1113
+      },
+      {
+        "language": "Italian",
+        "speakers": 1090
+      },
+      {
+        "language": "German",
+        "speakers": 1064
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 1018
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 923
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 899
+      },
+      {
+        "language": "Japanese",
+        "speakers": 895
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 893
+      },
+      {
+        "language": "Haitian",
+        "speakers": 805
+      },
+      {
+        "language": "Bengali",
+        "speakers": 751
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 739
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 646
+      },
+      {
+        "language": "Telugu",
+        "speakers": 540
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 461
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 385
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 267
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 218
+      },
+      {
+        "language": "Khmer",
+        "speakers": 210
+      },
+      {
+        "language": "Armenian",
+        "speakers": 154
+      },
+      {
+        "language": "Polish",
+        "speakers": 137
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 136
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 105
+      },
+      {
+        "language": "Tamil",
+        "speakers": 86
+      },
+      {
+        "language": "Greek",
+        "speakers": 70
+      },
+      {
+        "language": "Hmong",
+        "speakers": 52
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 444521,
+        "hispanic": true
+      },
+      {
+        "race": "White Alone",
+        "population": 390695,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 326060,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 89847,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 49751,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 19085,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 11203,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 4459,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 3697,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 3049,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 545,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 312,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 282,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 59,
+        "hispanic": true
+      }
+    ]
+  },
+  "houston-tx": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 1099181
+      },
+      {
+        "language": "Spanish",
+        "speakers": 842503
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 30881
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 30242
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 14479
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 13581
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 9691
+      },
+      {
+        "language": "Arabic",
+        "speakers": 9535
+      },
+      {
+        "language": "Urdu",
+        "speakers": 8922
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 8528
+      },
+      {
+        "language": "Hindi",
+        "speakers": 6830
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 6564
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 5489
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 5483
+      },
+      {
+        "language": "Korean",
+        "speakers": 5412
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 5086
+      },
+      {
+        "language": "Russian",
+        "speakers": 4377
+      },
+      {
+        "language": "German",
+        "speakers": 3376
+      },
+      {
+        "language": "Telugu",
+        "speakers": 3054
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 2945
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 2790
+      },
+      {
+        "language": "Italian",
+        "speakers": 2651
+      },
+      {
+        "language": "Bengali",
+        "speakers": 2581
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 2487
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 2254
+      },
+      {
+        "language": "Japanese",
+        "speakers": 1819
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 1686
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 1660
+      },
+      {
+        "language": "Greek",
+        "speakers": 1509
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 1496
+      },
+      {
+        "language": "Haitian",
+        "speakers": 1151
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 1080
+      },
+      {
+        "language": "Tamil",
+        "speakers": 1020
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 813
+      },
+      {
+        "language": "Polish",
+        "speakers": 802
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 720
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 581
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 522
+      },
+      {
+        "language": "Khmer",
+        "speakers": 465
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 374
+      },
+      {
+        "language": "Armenian",
+        "speakers": 252
+      },
+      {
+        "language": "Hmong",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 721868,
+        "hispanic": true
+      },
+      {
+        "race": "White Alone",
+        "population": 540458,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 518947,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 298286,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 149840,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 33917,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 19060,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 16034,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 7172,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 5400,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 4017,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 966,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 556,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 276,
+        "hispanic": true
+      }
+    ]
+  },
+  "jersey-city-nj": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 116879
+      },
+      {
+        "language": "Spanish",
+        "speakers": 50614
+      },
+      {
+        "language": "Hindi",
+        "speakers": 15850
+      },
+      {
+        "language": "Arabic",
+        "speakers": 10789
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 8818
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 6663
+      },
+      {
+        "language": "Urdu",
+        "speakers": 4329
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 2882
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 2546
+      },
+      {
+        "language": "Telugu",
+        "speakers": 2176
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 1771
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 1615
+      },
+      {
+        "language": "Korean",
+        "speakers": 1573
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 1480
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 1355
+      },
+      {
+        "language": "Japanese",
+        "speakers": 1343
+      },
+      {
+        "language": "Tamil",
+        "speakers": 1299
+      },
+      {
+        "language": "Bengali",
+        "speakers": 1215
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 1215
+      },
+      {
+        "language": "German",
+        "speakers": 1183
+      },
+      {
+        "language": "Polish",
+        "speakers": 1116
+      },
+      {
+        "language": "Russian",
+        "speakers": 1039
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 877
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 758
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 700
+      },
+      {
+        "language": "Haitian",
+        "speakers": 625
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 556
+      },
+      {
+        "language": "Greek",
+        "speakers": 547
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 503
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 476
+      },
+      {
+        "language": "Italian",
+        "speakers": 406
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 379
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 342
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 279
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 109
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 62
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 36
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 18
+      },
+      {
+        "language": "Armenian",
+        "speakers": 0
+      },
+      {
+        "language": "Hmong",
+        "speakers": 0
+      },
+      {
+        "language": "Khmer",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 67937,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 64081,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 53128,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 35888,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 15897,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 7880,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 7414,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 5095,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 2332,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 1192,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 672,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 559,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 0,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 0,
+        "hispanic": true
+      }
+    ]
+  },
+  "los-angeles-ca": {
+    "languages": [
+      {
+        "language": "Spanish",
+        "speakers": 1574800
+      },
+      {
+        "language": "Speak Only English",
+        "speakers": 1534721
+      },
+      {
+        "language": "Korean",
+        "speakers": 90282
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 87850
+      },
+      {
+        "language": "Armenian",
+        "speakers": 78303
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 63323
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 54231
+      },
+      {
+        "language": "Russian",
+        "speakers": 34766
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 21243
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 20969
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 20463
+      },
+      {
+        "language": "Arabic",
+        "speakers": 16615
+      },
+      {
+        "language": "Japanese",
+        "speakers": 14460
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 11799
+      },
+      {
+        "language": "Hindi",
+        "speakers": 9878
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 9607
+      },
+      {
+        "language": "German",
+        "speakers": 9050
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 8185
+      },
+      {
+        "language": "Bengali",
+        "speakers": 8090
+      },
+      {
+        "language": "Italian",
+        "speakers": 6744
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 6534
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 6515
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 6161
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 5703
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 5314
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 4790
+      },
+      {
+        "language": "Urdu",
+        "speakers": 4672
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 4079
+      },
+      {
+        "language": "Haitian",
+        "speakers": 3973
+      },
+      {
+        "language": "Khmer",
+        "speakers": 3331
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 3329
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 3323
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 2702
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 2491
+      },
+      {
+        "language": "Tamil",
+        "speakers": 2367
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 2248
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 2164
+      },
+      {
+        "language": "Polish",
+        "speakers": 2065
+      },
+      {
+        "language": "Greek",
+        "speakers": 2037
+      },
+      {
+        "language": "Telugu",
+        "speakers": 1261
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 640
+      },
+      {
+        "language": "Hmong",
+        "speakers": 354
+      },
+      {
+        "language": "Navajo",
+        "speakers": 238
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 1143368,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 930426,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 885853,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 457600,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 331083,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 101361,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 59411,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 22868,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 13607,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 13277,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 8893,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 6308,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 4297,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 1185,
+        "hispanic": true
+      }
+    ]
+  },
+  "new-york-ny": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 4040918
+      },
+      {
+        "language": "Spanish",
+        "speakers": 1863816
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 498683
+      },
+      {
+        "language": "Russian",
+        "speakers": 193119
+      },
+      {
+        "language": "Bengali",
+        "speakers": 117428
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 106590
+      },
+      {
+        "language": "Haitian",
+        "speakers": 102160
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 71783
+      },
+      {
+        "language": "Arabic",
+        "speakers": 71197
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 69267
+      },
+      {
+        "language": "Korean",
+        "speakers": 63683
+      },
+      {
+        "language": "Italian",
+        "speakers": 56258
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 52724
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 47983
+      },
+      {
+        "language": "Polish",
+        "speakers": 44737
+      },
+      {
+        "language": "Urdu",
+        "speakers": 43309
+      },
+      {
+        "language": "Greek",
+        "speakers": 38056
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 37007
+      },
+      {
+        "language": "Hindi",
+        "speakers": 32725
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 30571
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 24772
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 22066
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 19344
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 17935
+      },
+      {
+        "language": "Japanese",
+        "speakers": 17901
+      },
+      {
+        "language": "German",
+        "speakers": 17845
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 17324
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 15544
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 12475
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 10744
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 9626
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 9119
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 6956
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 6467
+      },
+      {
+        "language": "Tamil",
+        "speakers": 6046
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 5720
+      },
+      {
+        "language": "Armenian",
+        "speakers": 3633
+      },
+      {
+        "language": "Khmer",
+        "speakers": 3254
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 3099
+      },
+      {
+        "language": "Telugu",
+        "speakers": 2758
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 675
+      },
+      {
+        "language": "Hmong",
+        "speakers": 245
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 2655368,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 1808814,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 1194869,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 1122530,
+        "hispanic": true
+      },
+      {
+        "race": "White Alone",
+        "population": 876409,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 251305,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 172060,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 143052,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 67709,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 20733,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 13054,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 7054,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 2505,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 1355,
+        "hispanic": false
+      }
+    ]
+  },
+  "philadelphia-pa": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 1123676
+      },
+      {
+        "language": "Spanish",
+        "speakers": 164712
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 37706
+      },
+      {
+        "language": "Arabic",
+        "speakers": 13086
+      },
+      {
+        "language": "Russian",
+        "speakers": 12709
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 11256
+      },
+      {
+        "language": "Haitian",
+        "speakers": 10186
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 9914
+      },
+      {
+        "language": "Khmer",
+        "speakers": 8934
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 8449
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 7762
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 7727
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 6584
+      },
+      {
+        "language": "Korean",
+        "speakers": 6196
+      },
+      {
+        "language": "Urdu",
+        "speakers": 5715
+      },
+      {
+        "language": "Italian",
+        "speakers": 4561
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 4315
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 3780
+      },
+      {
+        "language": "Polish",
+        "speakers": 3500
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 3463
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 2951
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 2869
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 2742
+      },
+      {
+        "language": "Hindi",
+        "speakers": 2428
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 2031
+      },
+      {
+        "language": "Greek",
+        "speakers": 1714
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 1425
+      },
+      {
+        "language": "German",
+        "speakers": 1166
+      },
+      {
+        "language": "Bengali",
+        "speakers": 1148
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 1146
+      },
+      {
+        "language": "Tamil",
+        "speakers": 1125
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 1090
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 999
+      },
+      {
+        "language": "Japanese",
+        "speakers": 729
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 672
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 645
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 598
+      },
+      {
+        "language": "Telugu",
+        "speakers": 522
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 392
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 378
+      },
+      {
+        "language": "Hmong",
+        "speakers": 252
+      },
+      {
+        "language": "Armenian",
+        "speakers": 93
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "Black or African American Alone",
+        "population": 635252,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 541127,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 124284,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 118944,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 76599,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 38167,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 22091,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 14253,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 4542,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 4036,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 3175,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 697,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 571,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 326,
+        "hispanic": true
+      }
+    ]
+  },
+  "phoenix-az": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 973426
+      },
+      {
+        "language": "Spanish",
+        "speakers": 478261
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 8997
+      },
+      {
+        "language": "Hindi",
+        "speakers": 7360
+      },
+      {
+        "language": "Arabic",
+        "speakers": 6791
+      },
+      {
+        "language": "Navajo",
+        "speakers": 6199
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 6184
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 5730
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 5324
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 4944
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 4688
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 4239
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 4168
+      },
+      {
+        "language": "Telugu",
+        "speakers": 3962
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 3832
+      },
+      {
+        "language": "German",
+        "speakers": 3475
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 3321
+      },
+      {
+        "language": "Korean",
+        "speakers": 2802
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 2771
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 2763
+      },
+      {
+        "language": "Russian",
+        "speakers": 2602
+      },
+      {
+        "language": "Tamil",
+        "speakers": 2386
+      },
+      {
+        "language": "Japanese",
+        "speakers": 2365
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 2195
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 2175
+      },
+      {
+        "language": "Polish",
+        "speakers": 1969
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 1815
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 1685
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 1433
+      },
+      {
+        "language": "Italian",
+        "speakers": 1206
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 1163
+      },
+      {
+        "language": "Bengali",
+        "speakers": 1104
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 921
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 857
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 608
+      },
+      {
+        "language": "Khmer",
+        "speakers": 545
+      },
+      {
+        "language": "Urdu",
+        "speakers": 527
+      },
+      {
+        "language": "Armenian",
+        "speakers": 492
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 401
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 347
+      },
+      {
+        "language": "Haitian",
+        "speakers": 326
+      },
+      {
+        "language": "Greek",
+        "speakers": 272
+      },
+      {
+        "language": "Hmong",
+        "speakers": 42
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 695743,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 593465,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 115804,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 93563,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 65663,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 41868,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 28127,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 22823,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 6959,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 6338,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 5271,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 3118,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 1849,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 397,
+        "hispanic": true
+      }
+    ]
+  },
+  "sacramento-ca": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 303145
+      },
+      {
+        "language": "Spanish",
+        "speakers": 87648
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 18301
+      },
+      {
+        "language": "Hmong",
+        "speakers": 11351
+      },
+      {
+        "language": "Hindi",
+        "speakers": 8451
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 7965
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 6521
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 6274
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 3531
+      },
+      {
+        "language": "Russian",
+        "speakers": 3375
+      },
+      {
+        "language": "Arabic",
+        "speakers": 3193
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 2098
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 2090
+      },
+      {
+        "language": "Korean",
+        "speakers": 1760
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 1659
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 1571
+      },
+      {
+        "language": "Japanese",
+        "speakers": 1515
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 1158
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 1122
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 1083
+      },
+      {
+        "language": "Khmer",
+        "speakers": 922
+      },
+      {
+        "language": "Telugu",
+        "speakers": 857
+      },
+      {
+        "language": "Urdu",
+        "speakers": 838
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 829
+      },
+      {
+        "language": "German",
+        "speakers": 646
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 566
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 560
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 532
+      },
+      {
+        "language": "Polish",
+        "speakers": 425
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 270
+      },
+      {
+        "language": "Italian",
+        "speakers": 245
+      },
+      {
+        "language": "Armenian",
+        "speakers": 127
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 127
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 104
+      },
+      {
+        "language": "Tamil",
+        "speakers": 93
+      },
+      {
+        "language": "Greek",
+        "speakers": 45
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 9
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 9
+      },
+      {
+        "language": "Haitian",
+        "speakers": 0
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 0
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 0
+      },
+      {
+        "language": "Bengali",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 164455,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 93468,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 75227,
+        "hispanic": true
+      },
+      {
+        "race": "White Alone",
+        "population": 62365,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 57820,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 25644,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 16352,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 9604,
+        "hispanic": false
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 2928,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 2236,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 1611,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 973,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 896,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 41,
+        "hispanic": true
+      }
+    ]
+  },
+  "san-diego-ca": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 819058
+      },
+      {
+        "language": "Spanish",
+        "speakers": 289375
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 47421
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 36191
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 30421
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 10769
+      },
+      {
+        "language": "Korean",
+        "speakers": 10310
+      },
+      {
+        "language": "Russian",
+        "speakers": 9622
+      },
+      {
+        "language": "Hindi",
+        "speakers": 8887
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 7989
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 7604
+      },
+      {
+        "language": "Japanese",
+        "speakers": 6533
+      },
+      {
+        "language": "Arabic",
+        "speakers": 5516
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 4771
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 4628
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 4496
+      },
+      {
+        "language": "German",
+        "speakers": 3835
+      },
+      {
+        "language": "Telugu",
+        "speakers": 3770
+      },
+      {
+        "language": "Italian",
+        "speakers": 3436
+      },
+      {
+        "language": "Tamil",
+        "speakers": 2845
+      },
+      {
+        "language": "Khmer",
+        "speakers": 2666
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 2618
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 2337
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 2335
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 2013
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 1760
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 1702
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 1655
+      },
+      {
+        "language": "Polish",
+        "speakers": 1286
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 1231
+      },
+      {
+        "language": "Urdu",
+        "speakers": 1025
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 905
+      },
+      {
+        "language": "Armenian",
+        "speakers": 689
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 639
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 597
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 588
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 569
+      },
+      {
+        "language": "Bengali",
+        "speakers": 529
+      },
+      {
+        "language": "Greek",
+        "speakers": 401
+      },
+      {
+        "language": "Haitian",
+        "speakers": 0
+      },
+      {
+        "language": "Hmong",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 607150,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 324379,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 239079,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 82800,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 66368,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 51683,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 28110,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 5917,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 4465,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 4265,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 3089,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 3044,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 2702,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 801,
+        "hispanic": true
+      }
+    ]
+  },
+  "san-francisco-ca": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 486275
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 147371
+      },
+      {
+        "language": "Spanish",
+        "speakers": 87224
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 17977
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 14109
+      },
+      {
+        "language": "Russian",
+        "speakers": 10910
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 7608
+      },
+      {
+        "language": "Hindi",
+        "speakers": 7354
+      },
+      {
+        "language": "Japanese",
+        "speakers": 6893
+      },
+      {
+        "language": "Korean",
+        "speakers": 5772
+      },
+      {
+        "language": "Arabic",
+        "speakers": 5531
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 4509
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 3992
+      },
+      {
+        "language": "German",
+        "speakers": 3574
+      },
+      {
+        "language": "Italian",
+        "speakers": 3003
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 2840
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 2698
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 2694
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 2623
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 2094
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 1995
+      },
+      {
+        "language": "Armenian",
+        "speakers": 1828
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 1571
+      },
+      {
+        "language": "Tamil",
+        "speakers": 1463
+      },
+      {
+        "language": "Khmer",
+        "speakers": 1356
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 1123
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 964
+      },
+      {
+        "language": "Greek",
+        "speakers": 944
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 893
+      },
+      {
+        "language": "Bengali",
+        "speakers": 886
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 852
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 781
+      },
+      {
+        "language": "Urdu",
+        "speakers": 778
+      },
+      {
+        "language": "Telugu",
+        "speakers": 633
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 574
+      },
+      {
+        "language": "Polish",
+        "speakers": 279
+      },
+      {
+        "language": "Haitian",
+        "speakers": 232
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 117
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 94
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 47
+      },
+      {
+        "language": "Hmong",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 351010,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 304721,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 65928,
+        "hispanic": true
+      },
+      {
+        "race": "White Alone",
+        "population": 47652,
+        "hispanic": true
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 46063,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 35825,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 14299,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 3608,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 3548,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 2928,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 2465,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 2162,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 1103,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 237,
+        "hispanic": true
+      }
+    ]
+  },
+  "san-jose-ca": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 394483
+      },
+      {
+        "language": "Spanish",
+        "speakers": 214745
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 101854
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 79793
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 35157
+      },
+      {
+        "language": "Hindi",
+        "speakers": 17996
+      },
+      {
+        "language": "Korean",
+        "speakers": 10516
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 9548
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 9347
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 7484
+      },
+      {
+        "language": "Tamil",
+        "speakers": 7268
+      },
+      {
+        "language": "Russian",
+        "speakers": 7131
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 6901
+      },
+      {
+        "language": "Telugu",
+        "speakers": 6647
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 6262
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 5204
+      },
+      {
+        "language": "Japanese",
+        "speakers": 4243
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 4166
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 3905
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 3395
+      },
+      {
+        "language": "Arabic",
+        "speakers": 3205
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 3180
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 2250
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 2100
+      },
+      {
+        "language": "Khmer",
+        "speakers": 2025
+      },
+      {
+        "language": "Bengali",
+        "speakers": 2002
+      },
+      {
+        "language": "Urdu",
+        "speakers": 1996
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 1876
+      },
+      {
+        "language": "German",
+        "speakers": 1796
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 1335
+      },
+      {
+        "language": "Italian",
+        "speakers": 1259
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 1243
+      },
+      {
+        "language": "Greek",
+        "speakers": 1023
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 978
+      },
+      {
+        "language": "Armenian",
+        "speakers": 573
+      },
+      {
+        "language": "Polish",
+        "speakers": 572
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 420
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 346
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 269
+      },
+      {
+        "language": "Hmong",
+        "speakers": 256
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 188
+      },
+      {
+        "language": "Haitian",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "Asian Alone",
+        "population": 383895,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 255744,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 178368,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 106247,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 32075,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 28181,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 20379,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 4089,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 4024,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 3735,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 2107,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 1370,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 1282,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 290,
+        "hispanic": true
+      }
+    ]
+  },
+  "seattle-wa": {
+    "languages": [
+      {
+        "language": "Speak Only English",
+        "speakers": 559931
+      },
+      {
+        "language": "Chinese (Incl. Mandarin, Cantonese)",
+        "speakers": 37635
+      },
+      {
+        "language": "Spanish",
+        "speakers": 29520
+      },
+      {
+        "language": "Amharic, Somali, or Other Afro-Asiatic Languages",
+        "speakers": 15715
+      },
+      {
+        "language": "Vietnamese",
+        "speakers": 11994
+      },
+      {
+        "language": "Tagalog (Incl. Filipino)",
+        "speakers": 9024
+      },
+      {
+        "language": "Korean",
+        "speakers": 6305
+      },
+      {
+        "language": "Japanese",
+        "speakers": 5582
+      },
+      {
+        "language": "French (Incl. Cajun)",
+        "speakers": 4370
+      },
+      {
+        "language": "Hindi",
+        "speakers": 4090
+      },
+      {
+        "language": "German",
+        "speakers": 3269
+      },
+      {
+        "language": "Other Indo-European Languages",
+        "speakers": 3013
+      },
+      {
+        "language": "Russian",
+        "speakers": 2460
+      },
+      {
+        "language": "Arabic",
+        "speakers": 2160
+      },
+      {
+        "language": "Thai, Lao, or Other Tai-Kadai Languages",
+        "speakers": 2112
+      },
+      {
+        "language": "Telugu",
+        "speakers": 1783
+      },
+      {
+        "language": "Yoruba, Twi, Igbo, or Other Languages of Western Africa",
+        "speakers": 1775
+      },
+      {
+        "language": "Gujarati",
+        "speakers": 1574
+      },
+      {
+        "language": "Ilocano, Samoan, Hawaiian, or Other Austronesian Languages",
+        "speakers": 1538
+      },
+      {
+        "language": "Persian (Incl. Farsi, Dari)",
+        "speakers": 1511
+      },
+      {
+        "language": "Swahili or Other Languages of Central, Eastern, & Southern Africa",
+        "speakers": 1342
+      },
+      {
+        "language": "Khmer",
+        "speakers": 1278
+      },
+      {
+        "language": "Bengali",
+        "speakers": 1234
+      },
+      {
+        "language": "Polish",
+        "speakers": 1200
+      },
+      {
+        "language": "Portuguese",
+        "speakers": 1188
+      },
+      {
+        "language": "Other Native Languages of North America",
+        "speakers": 1015
+      },
+      {
+        "language": "Tamil",
+        "speakers": 937
+      },
+      {
+        "language": "Other & Unspecified Languages",
+        "speakers": 775
+      },
+      {
+        "language": "Nepali, Marathi, or Other Indic Languages",
+        "speakers": 760
+      },
+      {
+        "language": "Other Languages of Asia",
+        "speakers": 711
+      },
+      {
+        "language": "Italian",
+        "speakers": 710
+      },
+      {
+        "language": "Punjabi",
+        "speakers": 639
+      },
+      {
+        "language": "Malayalam, Kannada, or Other Dravidian Languages",
+        "speakers": 596
+      },
+      {
+        "language": "Yiddish, Pennsylvania Dutch or Other West Germanic Languages",
+        "speakers": 581
+      },
+      {
+        "language": "Armenian",
+        "speakers": 505
+      },
+      {
+        "language": "Hebrew",
+        "speakers": 485
+      },
+      {
+        "language": "Ukrainian or Other Slavic Languages",
+        "speakers": 456
+      },
+      {
+        "language": "Urdu",
+        "speakers": 164
+      },
+      {
+        "language": "Serbo-Croatian",
+        "speakers": 144
+      },
+      {
+        "language": "Haitian",
+        "speakers": 0
+      },
+      {
+        "language": "Greek",
+        "speakers": 0
+      },
+      {
+        "language": "Hmong",
+        "speakers": 0
+      },
+      {
+        "language": "Navajo",
+        "speakers": 0
+      }
+    ],
+    "races": [
+      {
+        "race": "White Alone",
+        "population": 473154,
+        "hispanic": false
+      },
+      {
+        "race": "Asian Alone",
+        "population": 124387,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 54994,
+        "hispanic": false
+      },
+      {
+        "race": "Two or More Races",
+        "population": 42542,
+        "hispanic": false
+      },
+      {
+        "race": "White Alone",
+        "population": 26590,
+        "hispanic": true
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 12598,
+        "hispanic": true
+      },
+      {
+        "race": "Two or More Races",
+        "population": 8237,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 4361,
+        "hispanic": false
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 2819,
+        "hispanic": false
+      },
+      {
+        "race": "Some Other Race Alone",
+        "population": 1419,
+        "hispanic": false
+      },
+      {
+        "race": "Black or African American Alone",
+        "population": 961,
+        "hispanic": true
+      },
+      {
+        "race": "Asian Alone",
+        "population": 836,
+        "hispanic": true
+      },
+      {
+        "race": "American Indian & Alaska Native Alone",
+        "population": 757,
+        "hispanic": true
+      },
+      {
+        "race": "Native Hawaiian & Other Pacific Islander Alone",
+        "population": 0,
+        "hispanic": true
+      }
+    ]
+  }
+}

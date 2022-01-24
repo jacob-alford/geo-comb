@@ -289,3 +289,71 @@ export const getLanguagesByPlace: () => RTE.ReaderTaskEither<
         flow(languagesByPlace.decode, E.mapLeft(flow(REST.decodeError))),
       ),
     )
+
+///////////////////////////////////////////
+//  Get demographics by Place ID
+///////////////////////////////////////////
+export interface DemographicsByPlaceIdParams {
+  year: 'latest'
+  measure: 'Hispanic Population,Hispanic Population Moe'
+  drilldowns: 'Race,Ethnicity'
+  Geography: string
+}
+
+export const demographicsByPlaceIdParams: (
+  Geography: string,
+) => DemographicsByPlaceIdParams = (Geography: string) => ({
+  year: 'latest',
+  measure: 'Hispanic Population,Hispanic Population Moe',
+  drilldowns: 'Race,Ethnicity',
+  Geography,
+})
+
+interface GeographyIdDemographic {
+  'ID Race': number
+  Race: string
+  'ID Ethnicity': number
+  Ethnicity: string
+  'ID Year': number
+  Year: string
+  'Hispanic Population': number
+  'Hispanic Population Moe': number
+  Geography: string
+  'ID Geography': string
+  'Slug Geography': string
+}
+
+interface DemographicsByGeographyId {
+  data: ReadonlyArray<GeographyIdDemographic>
+}
+
+const geographyIdDemographic = t.type({
+  data: t.array(
+    t.type({
+      'ID Race': t.number,
+      Race: t.string,
+      'ID Ethnicity': t.number,
+      Ethnicity: t.string,
+      'ID Year': t.number,
+      Year: t.string,
+      'Hispanic Population': t.number,
+      'Hispanic Population Moe': t.number,
+      Geography: t.string,
+      'ID Geography': t.string,
+      'Slug Geography': t.string,
+    }),
+  ),
+})
+
+export const getDemographicsByPlaceId: (
+  Geograpy: string,
+) => RTE.ReaderTaskEither<Env, REST.RestError, DemographicsByGeographyId> =
+  Geography =>
+  ({ get }) =>
+    pipe(
+      get(extendBaseUrl(), demographicsByPlaceIdParams(Geography)),
+      TE.map(a => a.data),
+      TE.chainEitherK(
+        flow(geographyIdDemographic.decode, E.mapLeft(flow(REST.decodeError))),
+      ),
+    )
