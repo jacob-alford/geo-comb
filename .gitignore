@@ -2,3 +2,4 @@ node_modules
 yarn-error.log
 tsbuildinfo
 dist  
+.DS_Store
