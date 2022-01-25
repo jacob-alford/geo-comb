@@ -357,3 +357,81 @@ export const getDemographicsByPlaceId: (
         flow(geographyIdDemographic.decode, E.mapLeft(flow(REST.decodeError))),
       ),
     )
+
+///////////////////////////////////////////
+//  Total Foreign Population by GeographyId
+///////////////////////////////////////////
+export interface TotalForeignPopulationByGeographyIdParam {
+  Geography: string
+  Nativity: 2
+  measure: 'Total Population'
+  drilldowns: 'State,Birthplace'
+  year: 'latest'
+}
+
+const totalForeignPopulationByByGeographyIdParams: (
+  geographyId: string,
+) => TotalForeignPopulationByGeographyIdParam = Geography => ({
+  Geography,
+  Nativity: 2,
+  measure: 'Total Population',
+  drilldowns: 'State,Birthplace',
+  year: 'latest',
+})
+
+interface ForeignPopulationByGeographyId {
+  'ID Birthplace': number
+  Birthplace: string
+  'ID Year': number
+  Year: string
+  'ID Nativity': number
+  Nativity: string
+  'Total Population': number
+  Geography: string
+  'ID Geography': string
+  'Slug Geography': string
+}
+
+interface ForeignPopulationByGeographyIdResponse {
+  data: ReadonlyArray<ForeignPopulationByGeographyId>
+}
+
+const foreignPopulationByGeographyIdResponse = t.type({
+  data: t.array(
+    t.type({
+      'ID Birthplace': t.number,
+      Birthplace: t.string,
+      'ID Year': t.number,
+      Year: t.string,
+      'ID Nativity': t.number,
+      Nativity: t.string,
+      'Total Population': t.number,
+      Geography: t.string,
+      'ID Geography': t.string,
+      'Slug Geography': t.string,
+    }),
+  ),
+})
+
+export const getForeignPopulationByGeographyIdResponse: (
+  geographyId: string,
+) => RTE.ReaderTaskEither<
+  Env,
+  REST.RestError,
+  ForeignPopulationByGeographyIdResponse
+> =
+  geographyId =>
+  ({ get }) =>
+    pipe(
+      get(
+        extendBaseUrl(),
+        totalForeignPopulationByByGeographyIdParams(geographyId),
+      ),
+      TE.map(a => a.data),
+      TE.chainEitherK(
+        flow(
+          foreignPopulationByGeographyIdResponse.decode,
+          E.mapLeft(flow(REST.decodeError)),
+        ),
+      ),
+    )
