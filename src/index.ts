@@ -18,117 +18,64 @@ import * as REST from './REST'
 import * as API from './API'
 import * as FS from './FS'
 
-interface AsianChineseSpeakers {
+interface PropertyPlace {
   place: string
-  chineseSpeakers: number
-  asianPopulation: number
-  chineseSpeakersToAsianPopulationRatio: number
-  populationInStateFromChina: number
+  medianPropertyValue: number
+  population: number
+  populationToPropertyValueRatio: number
 }
 
-const ordAsianChineseSpeakers: Ord.Ord<AsianChineseSpeakers> = Ord.reverse(
+const propertyPlaceFromApi: (
+  place: API.PlaceValuePopulation,
+) => PropertyPlace = ({
+  Place: place,
+  'Property Value': medianPropertyValue,
+  Population: population,
+}) => ({
+  place,
+  medianPropertyValue,
+  population,
+  populationToPropertyValueRatio: population / medianPropertyValue,
+})
+
+const ordPropertyPlace: Ord.Ord<PropertyPlace> = Ord.reverse(
   pipe(
     N.Ord,
     Ord.contramap(
-      ({ chineseSpeakersToAsianPopulationRatio }) =>
-        chineseSpeakersToAsianPopulationRatio,
+      ({ populationToPropertyValueRatio }) => populationToPropertyValueRatio,
     ),
   ),
 )
 
 const main: IO.IO<void> = () =>
   pipe(
-    API.getLanguagesByPlace(),
+    API.getPropertyValueByPlace(),
     RTE.map(
       flow(
         ({ data }) => data,
-        RA.filter(
-          ({ 'Language Spoken at Home': language }) =>
-            language === 'Chinese (Incl. Mandarin, Cantonese)',
-        ),
-      ),
-    ),
-    RTE.chain(
-      flow(
-        RA.map(
-          ({
-            'ID Place': placeId,
-            'Languages Spoken': chineseSpeakers,
-            'Slug Place': place,
-          }) =>
-            pipe(
-              API.getDemographicsByPlaceId(placeId),
-              RTE.bindTo('demographics'),
-              RTE.apS(
-                'foreignBirthplaces',
-                API.getForeignPopulationByGeographyIdResponse(placeId),
-              ),
-              RTE.chainEitherK(({ demographics, foreignBirthplaces }) =>
-                pipe(
-                  demographics.data,
-                  RA.filter(
-                    ({ Race, Ethnicity }) =>
-                      Ethnicity !== 'Hispanic or Latino' &&
-                      Race === 'Asian Alone',
-                  ),
-                  RNEA.fromReadonlyArray,
-                  O.map(RNEA.head),
-                  O.map(geographyDemographic => ({
-                    ...geographyDemographic,
-                    chineseSpeakers,
-                    populationInStateFromChina: pipe(
-                      foreignBirthplaces.data,
-                      RA.findFirst(({ Birthplace }) => Birthplace === 'China'),
-                      O.fold(
-                        () => 0,
-                        ({ 'Total Population': population }) => population,
-                      ),
-                    ),
-                  })),
-                  E.fromOption(() =>
-                    REST.decodeError(`No asian population for place: ${place}`),
-                  ),
-                ),
-              ),
-            ),
-        ),
-        RTE.sequenceArray,
-        RTE.map(
-          flow(
-            RA.map(
-              ({
-                chineseSpeakers,
-                'Hispanic Population': asianPopulation,
-                'Slug Geography': place,
-                populationInStateFromChina,
-              }): AsianChineseSpeakers => ({
-                chineseSpeakers,
-                asianPopulation,
-                place,
-                chineseSpeakersToAsianPopulationRatio:
-                  chineseSpeakers / asianPopulation,
-                populationInStateFromChina,
-              }),
-            ),
-            RA.sort(ordAsianChineseSpeakers),
+        RA.filterMap(place =>
+          pipe(
+            propertyPlaceFromApi(place),
+            O.fromPredicate(({ population }) => population > 100_000),
           ),
         ),
+        RA.sort(ordPropertyPlace),
       ),
     ),
     RTE.fold(
-      e => RT.fromIO(Console.error(e)),
-      data => RT.fromIO(Console.log(data)),
-      // pipe(
-      //   FS.writeFile(
-      //     '../language-and-race-by-place.json',
-      //     JSON.stringify(data, null, 2),
-      //   ),
-      //   RTE.fromTaskEither,
-      //   RTE.fold(
-      //     err => RT.fromIO(Console.error(err)),
-      //     () => RT.fromIO(Console.log('Success!')),
-      //   ),
-      // ),
+      e => RT.fromIO(Console.error(REST.Show.show(e))),
+      data =>
+        pipe(
+          FS.writeFile(
+            '../property-values-for-cities.json',
+            JSON.stringify(data, null, 2),
+          ),
+          RTE.fromTaskEither,
+          RTE.fold(
+            err => RT.fromIO(Console.error(err)),
+            () => RT.fromIO(Console.log('Success!')),
+          ),
+        ),
     ),
     rt => rt(REST.env)(),
   )

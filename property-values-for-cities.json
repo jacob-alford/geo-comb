@@ -1,0 +1,1988 @@
+[
+  {
+    "place": "New York, NY",
+    "medianPropertyValue": 680800,
+    "population": 8336817,
+    "populationToPropertyValueRatio": 12.245618390129259
+  },
+  {
+    "place": "Houston, TX",
+    "medianPropertyValue": 195800,
+    "population": 2316797,
+    "populationToPropertyValueRatio": 11.832466802860061
+  },
+  {
+    "place": "Detroit, MI",
+    "medianPropertyValue": 58900,
+    "population": 670052,
+    "populationToPropertyValueRatio": 11.376095076400679
+  },
+  {
+    "place": "Chicago, IL",
+    "medianPropertyValue": 275200,
+    "population": 2693959,
+    "populationToPropertyValueRatio": 9.789095203488372
+  },
+  {
+    "place": "San Antonio, TX",
+    "medianPropertyValue": 171100,
+    "population": 1547250,
+    "populationToPropertyValueRatio": 9.042957334891875
+  },
+  {
+    "place": "Philadelphia, PA",
+    "medianPropertyValue": 183200,
+    "population": 1584064,
+    "populationToPropertyValueRatio": 8.646637554585153
+  },
+  {
+    "place": "Phoenix, AZ",
+    "medianPropertyValue": 266600,
+    "population": 1680988,
+    "populationToPropertyValueRatio": 6.305281320330082
+  },
+  {
+    "place": "Dallas, TX",
+    "medianPropertyValue": 231400,
+    "population": 1343565,
+    "populationToPropertyValueRatio": 5.806244598098531
+  },
+  {
+    "place": "Los Angeles, CA",
+    "medianPropertyValue": 697200,
+    "population": 3979537,
+    "populationToPropertyValueRatio": 5.707884394721744
+  },
+  {
+    "place": "Memphis, TN",
+    "medianPropertyValue": 115900,
+    "population": 651088,
+    "populationToPropertyValueRatio": 5.617670405522002
+  },
+  {
+    "place": "Indianapolis city (balance), IN",
+    "medianPropertyValue": 155400,
+    "population": 870340,
+    "populationToPropertyValueRatio": 5.600643500643501
+  },
+  {
+    "place": "Cleveland, OH",
+    "medianPropertyValue": 71100,
+    "population": 380989,
+    "populationToPropertyValueRatio": 5.358495077355837
+  },
+  {
+    "place": "Columbus, OH",
+    "medianPropertyValue": 173300,
+    "population": 902073,
+    "populationToPropertyValueRatio": 5.205268320830929
+  },
+  {
+    "place": "El Paso, TX",
+    "medianPropertyValue": 133600,
+    "population": 681729,
+    "populationToPropertyValueRatio": 5.102761976047904
+  },
+  {
+    "place": "Jacksonville, FL",
+    "medianPropertyValue": 200200,
+    "population": 911528,
+    "populationToPropertyValueRatio": 4.553086913086913
+  },
+  {
+    "place": "Milwaukee, WI",
+    "medianPropertyValue": 133600,
+    "population": 590157,
+    "populationToPropertyValueRatio": 4.417342814371257
+  },
+  {
+    "place": "Fort Worth, TX",
+    "medianPropertyValue": 209400,
+    "population": 913656,
+    "populationToPropertyValueRatio": 4.363209169054441
+  },
+  {
+    "place": "Oklahoma City, OK",
+    "medianPropertyValue": 165700,
+    "population": 655158,
+    "populationToPropertyValueRatio": 3.9538805069402536
+  },
+  {
+    "place": "Louisville/Jefferson County metro government (balance), KY",
+    "medianPropertyValue": 172100,
+    "population": 617630,
+    "populationToPropertyValueRatio": 3.5887855897733876
+  },
+  {
+    "place": "Charlotte, NC",
+    "medianPropertyValue": 252100,
+    "population": 885707,
+    "populationToPropertyValueRatio": 3.513316144387148
+  },
+  {
+    "place": "Baltimore, MD",
+    "medianPropertyValue": 179100,
+    "population": 593490,
+    "populationToPropertyValueRatio": 3.3137353433835846
+  },
+  {
+    "place": "Toledo, OH",
+    "medianPropertyValue": 84600,
+    "population": 272778,
+    "populationToPropertyValueRatio": 3.2243262411347517
+  },
+  {
+    "place": "Tucson, AZ",
+    "medianPropertyValue": 172700,
+    "population": 548082,
+    "populationToPropertyValueRatio": 3.1736074116965836
+  },
+  {
+    "place": "Kansas City, MO",
+    "medianPropertyValue": 168400,
+    "population": 495278,
+    "populationToPropertyValueRatio": 2.9410807600950117
+  },
+  {
+    "place": "Omaha, NE",
+    "medianPropertyValue": 175800,
+    "population": 478203,
+    "populationToPropertyValueRatio": 2.7201535836177473
+  },
+  {
+    "place": "Wichita, KS",
+    "medianPropertyValue": 146700,
+    "population": 389914,
+    "populationToPropertyValueRatio": 2.6579004771642807
+  },
+  {
+    "place": "Albuquerque, NM",
+    "medianPropertyValue": 211800,
+    "population": 560504,
+    "populationToPropertyValueRatio": 2.6463833805476864
+  },
+  {
+    "place": "Tulsa, OK",
+    "medianPropertyValue": 152700,
+    "population": 401760,
+    "populationToPropertyValueRatio": 2.631041257367387
+  },
+  {
+    "place": "Austin, TX",
+    "medianPropertyValue": 378300,
+    "population": 979263,
+    "populationToPropertyValueRatio": 2.588588421887391
+  },
+  {
+    "place": "Rochester, NY",
+    "medianPropertyValue": 87000,
+    "population": 205704,
+    "populationToPropertyValueRatio": 2.364413793103448
+  },
+  {
+    "place": "Nashville-Davidson metropolitan government (balance), TN",
+    "medianPropertyValue": 287300,
+    "population": 668580,
+    "populationToPropertyValueRatio": 2.327114514444831
+  },
+  {
+    "place": "Akron, OH",
+    "medianPropertyValue": 86600,
+    "population": 197597,
+    "populationToPropertyValueRatio": 2.281720554272517
+  },
+  {
+    "place": "Buffalo, NY",
+    "medianPropertyValue": 117500,
+    "population": 255300,
+    "populationToPropertyValueRatio": 2.1727659574468086
+  },
+  {
+    "place": "San Diego, CA",
+    "medianPropertyValue": 658400,
+    "population": 1423852,
+    "populationToPropertyValueRatio": 2.1625941676792224
+  },
+  {
+    "place": "Las Vegas, NV",
+    "medianPropertyValue": 305900,
+    "population": 651297,
+    "populationToPropertyValueRatio": 2.129117358613926
+  },
+  {
+    "place": "Birmingham, AL",
+    "medianPropertyValue": 98800,
+    "population": 210080,
+    "populationToPropertyValueRatio": 2.126315789473684
+  },
+  {
+    "place": "Fort Wayne, IN",
+    "medianPropertyValue": 124400,
+    "population": 262907,
+    "populationToPropertyValueRatio": 2.1134003215434083
+  },
+  {
+    "place": "Corpus Christi, TX",
+    "medianPropertyValue": 157100,
+    "population": 326590,
+    "populationToPropertyValueRatio": 2.0788669637173776
+  },
+  {
+    "place": "Dayton, OH",
+    "medianPropertyValue": 67900,
+    "population": 140402,
+    "populationToPropertyValueRatio": 2.067776141384389
+  },
+  {
+    "place": "San Juan, PR",
+    "medianPropertyValue": 152100,
+    "population": 310323,
+    "populationToPropertyValueRatio": 2.0402564102564105
+  },
+  {
+    "place": "Pittsburgh, PA",
+    "medianPropertyValue": 149200,
+    "population": 300281,
+    "populationToPropertyValueRatio": 2.012607238605898
+  },
+  {
+    "place": "Mesa, AZ",
+    "medianPropertyValue": 259300,
+    "population": 517981,
+    "populationToPropertyValueRatio": 1.9976128037022753
+  },
+  {
+    "place": "St. Louis, MO",
+    "medianPropertyValue": 150700,
+    "population": 300576,
+    "populationToPropertyValueRatio": 1.9945321831453218
+  },
+  {
+    "place": "Fresno, CA",
+    "medianPropertyValue": 276600,
+    "population": 531581,
+    "populationToPropertyValueRatio": 1.9218402024584238
+  },
+  {
+    "place": "Brownsville, TX",
+    "medianPropertyValue": 95600,
+    "population": 182781,
+    "populationToPropertyValueRatio": 1.9119351464435146
+  },
+  {
+    "place": "Arlington, TX",
+    "medianPropertyValue": 213800,
+    "population": 398860,
+    "populationToPropertyValueRatio": 1.865575304022451
+  },
+  {
+    "place": "Laredo, TX",
+    "medianPropertyValue": 148100,
+    "population": 264069,
+    "populationToPropertyValueRatio": 1.7830452397029035
+  },
+  {
+    "place": "Cincinnati, OH",
+    "medianPropertyValue": 170800,
+    "population": 303954,
+    "populationToPropertyValueRatio": 1.7795901639344263
+  },
+  {
+    "place": "Jackson, MS",
+    "medianPropertyValue": 91100,
+    "population": 160532,
+    "populationToPropertyValueRatio": 1.762151481888035
+  },
+  {
+    "place": "Greensboro, NC",
+    "medianPropertyValue": 169600,
+    "population": 296725,
+    "populationToPropertyValueRatio": 1.749557783018868
+  },
+  {
+    "place": "Raleigh, NC",
+    "medianPropertyValue": 274200,
+    "population": 474708,
+    "populationToPropertyValueRatio": 1.7312472647702406
+  },
+  {
+    "place": "Lubbock, TX",
+    "medianPropertyValue": 152800,
+    "population": 258870,
+    "populationToPropertyValueRatio": 1.694175392670157
+  },
+  {
+    "place": "Fayetteville, NC",
+    "medianPropertyValue": 128000,
+    "population": 211674,
+    "populationToPropertyValueRatio": 1.653703125
+  },
+  {
+    "place": "Denver, CO",
+    "medianPropertyValue": 447500,
+    "population": 727211,
+    "populationToPropertyValueRatio": 1.6250525139664804
+  },
+  {
+    "place": "Winston-Salem, NC",
+    "medianPropertyValue": 154200,
+    "population": 247951,
+    "populationToPropertyValueRatio": 1.6079831387808041
+  },
+  {
+    "place": "New Orleans, LA",
+    "medianPropertyValue": 242900,
+    "population": 390144,
+    "populationToPropertyValueRatio": 1.606191848497324
+  },
+  {
+    "place": "Augusta-Richmond County consolidated government (balance), GA",
+    "medianPropertyValue": 123900,
+    "population": 197325,
+    "populationToPropertyValueRatio": 1.5926150121065374
+  },
+  {
+    "place": "Montgomery, AL",
+    "medianPropertyValue": 125000,
+    "population": 198525,
+    "populationToPropertyValueRatio": 1.5882
+  },
+  {
+    "place": "Kansas City, KS",
+    "medianPropertyValue": 99700,
+    "population": 152818,
+    "populationToPropertyValueRatio": 1.532778335005015
+  },
+  {
+    "place": "Lexington-Fayette, KY",
+    "medianPropertyValue": 211400,
+    "population": 323152,
+    "populationToPropertyValueRatio": 1.528628192999054
+  },
+  {
+    "place": "Lincoln, NE",
+    "medianPropertyValue": 189400,
+    "population": 289096,
+    "populationToPropertyValueRatio": 1.5263780359028511
+  },
+  {
+    "place": "Minneapolis, MN",
+    "medianPropertyValue": 282200,
+    "population": 429605,
+    "populationToPropertyValueRatio": 1.522342310418143
+  },
+  {
+    "place": "Virginia Beach, VA",
+    "medianPropertyValue": 296200,
+    "population": 449974,
+    "populationToPropertyValueRatio": 1.5191559756921
+  },
+  {
+    "place": "Tampa, FL",
+    "medianPropertyValue": 265700,
+    "population": 399690,
+    "populationToPropertyValueRatio": 1.5042905532555513
+  },
+  {
+    "place": "Colorado Springs, CO",
+    "medianPropertyValue": 318200,
+    "population": 478215,
+    "populationToPropertyValueRatio": 1.5028755499685733
+  },
+  {
+    "place": "Portland, OR",
+    "medianPropertyValue": 445200,
+    "population": 653467,
+    "populationToPropertyValueRatio": 1.4678054806828391
+  },
+  {
+    "place": "Mobile, AL",
+    "medianPropertyValue": 129700,
+    "population": 188710,
+    "populationToPropertyValueRatio": 1.4549730146491904
+  },
+  {
+    "place": "Rockford, IL",
+    "medianPropertyValue": 98900,
+    "population": 143707,
+    "populationToPropertyValueRatio": 1.4530535894843275
+  },
+  {
+    "place": "Bakersfield, CA",
+    "medianPropertyValue": 264500,
+    "population": 384159,
+    "populationToPropertyValueRatio": 1.4523969754253307
+  },
+  {
+    "place": "Des Moines, IA",
+    "medianPropertyValue": 150200,
+    "population": 214200,
+    "populationToPropertyValueRatio": 1.426098535286285
+  },
+  {
+    "place": "Syracuse, NY",
+    "medianPropertyValue": 99800,
+    "population": 142310,
+    "populationToPropertyValueRatio": 1.4259519038076152
+  },
+  {
+    "place": "Atlanta, GA",
+    "medianPropertyValue": 359500,
+    "population": 506804,
+    "populationToPropertyValueRatio": 1.4097468706536858
+  },
+  {
+    "place": "Columbus, GA",
+    "medianPropertyValue": 139400,
+    "population": 195769,
+    "populationToPropertyValueRatio": 1.4043687230989956
+  },
+  {
+    "place": "Springfield, MO",
+    "medianPropertyValue": 124000,
+    "population": 167864,
+    "populationToPropertyValueRatio": 1.353741935483871
+  },
+  {
+    "place": "Sacramento, CA",
+    "medianPropertyValue": 380600,
+    "population": 513620,
+    "populationToPropertyValueRatio": 1.349500788229112
+  },
+  {
+    "place": "St. Paul, MN",
+    "medianPropertyValue": 231500,
+    "population": 308096,
+    "populationToPropertyValueRatio": 1.3308682505399567
+  },
+  {
+    "place": "Miami, FL",
+    "medianPropertyValue": 358500,
+    "population": 467968,
+    "populationToPropertyValueRatio": 1.305350069735007
+  },
+  {
+    "place": "Amarillo, TX",
+    "medianPropertyValue": 151700,
+    "population": 197365,
+    "populationToPropertyValueRatio": 1.3010217534607778
+  },
+  {
+    "place": "Garland, TX",
+    "medianPropertyValue": 190200,
+    "population": 239539,
+    "populationToPropertyValueRatio": 1.2594058885383808
+  },
+  {
+    "place": "Lansing, MI",
+    "medianPropertyValue": 94200,
+    "population": 116677,
+    "populationToPropertyValueRatio": 1.2386093418259023
+  },
+  {
+    "place": "Shreveport, LA",
+    "medianPropertyValue": 152000,
+    "population": 186815,
+    "populationToPropertyValueRatio": 1.229046052631579
+  },
+  {
+    "place": "Knoxville, TN",
+    "medianPropertyValue": 155400,
+    "population": 187610,
+    "populationToPropertyValueRatio": 1.2072715572715573
+  },
+  {
+    "place": "Evansville, IN",
+    "medianPropertyValue": 97700,
+    "population": 117557,
+    "populationToPropertyValueRatio": 1.2032446264073695
+  },
+  {
+    "place": "Bayamón, PR",
+    "medianPropertyValue": 127200,
+    "population": 152843,
+    "populationToPropertyValueRatio": 1.2015959119496855
+  },
+  {
+    "place": "Macon-Bibb County, GA",
+    "medianPropertyValue": 128000,
+    "population": 153159,
+    "populationToPropertyValueRatio": 1.1965546875
+  },
+  {
+    "place": "Grand Rapids, MI",
+    "medianPropertyValue": 168300,
+    "population": 201004,
+    "populationToPropertyValueRatio": 1.1943196672608438
+  },
+  {
+    "place": "Topeka, KS",
+    "medianPropertyValue": 105100,
+    "population": 125318,
+    "populationToPropertyValueRatio": 1.1923691722169363
+  },
+  {
+    "place": "Baton Rouge, LA",
+    "medianPropertyValue": 187500,
+    "population": 220248,
+    "populationToPropertyValueRatio": 1.174656
+  },
+  {
+    "place": "Little Rock, AR",
+    "medianPropertyValue": 171700,
+    "population": 197318,
+    "populationToPropertyValueRatio": 1.1492020966802563
+  },
+  {
+    "place": "Norfolk, VA",
+    "medianPropertyValue": 218000,
+    "population": 242742,
+    "populationToPropertyValueRatio": 1.1134954128440366
+  },
+  {
+    "place": "South Bend, IN",
+    "medianPropertyValue": 92200,
+    "population": 102602,
+    "populationToPropertyValueRatio": 1.1128199566160522
+  },
+  {
+    "place": "Boston, MA",
+    "medianPropertyValue": 627000,
+    "population": 694295,
+    "populationToPropertyValueRatio": 1.107328548644338
+  },
+  {
+    "place": "McAllen, TX",
+    "medianPropertyValue": 129400,
+    "population": 143258,
+    "populationToPropertyValueRatio": 1.1070942812982998
+  },
+  {
+    "place": "Aurora, CO",
+    "medianPropertyValue": 343000,
+    "population": 379312,
+    "populationToPropertyValueRatio": 1.105865889212828
+  },
+  {
+    "place": "Durham, NC",
+    "medianPropertyValue": 253500,
+    "population": 279447,
+    "populationToPropertyValueRatio": 1.102355029585799
+  },
+  {
+    "place": "Orlando, FL",
+    "medianPropertyValue": 260800,
+    "population": 287435,
+    "populationToPropertyValueRatio": 1.1021280674846625
+  },
+  {
+    "place": "St. Petersburg, FL",
+    "medianPropertyValue": 242700,
+    "population": 265358,
+    "populationToPropertyValueRatio": 1.0933580552121962
+  },
+  {
+    "place": "Washington, DC",
+    "medianPropertyValue": 646500,
+    "population": 705749,
+    "populationToPropertyValueRatio": 1.091645784996133
+  },
+  {
+    "place": "Huntsville, AL",
+    "medianPropertyValue": 185200,
+    "population": 201594,
+    "populationToPropertyValueRatio": 1.0885205183585314
+  },
+  {
+    "place": "Ponce, PR",
+    "medianPropertyValue": 98500,
+    "population": 106546,
+    "populationToPropertyValueRatio": 1.0816852791878173
+  },
+  {
+    "place": "Irving, TX",
+    "medianPropertyValue": 221700,
+    "population": 239779,
+    "populationToPropertyValueRatio": 1.0815471357690574
+  },
+  {
+    "place": "Glendale, AZ",
+    "medianPropertyValue": 241100,
+    "population": 252384,
+    "populationToPropertyValueRatio": 1.0468021567814185
+  },
+  {
+    "place": "Newark, NJ",
+    "medianPropertyValue": 270600,
+    "population": 281999,
+    "populationToPropertyValueRatio": 1.0421249076127126
+  },
+  {
+    "place": "Killeen, TX",
+    "medianPropertyValue": 146200,
+    "population": 151685,
+    "populationToPropertyValueRatio": 1.037517099863201
+  },
+  {
+    "place": "San Jose, CA",
+    "medianPropertyValue": 999900,
+    "population": 1021786,
+    "populationToPropertyValueRatio": 1.021888188818882
+  },
+  {
+    "place": "Carolina, PR",
+    "medianPropertyValue": 133100,
+    "population": 133757,
+    "populationToPropertyValueRatio": 1.0049361382419233
+  },
+  {
+    "place": "Pasadena, TX",
+    "medianPropertyValue": 150700,
+    "population": 151230,
+    "populationToPropertyValueRatio": 1.0035169210351693
+  },
+  {
+    "place": "Clarksville, TN",
+    "medianPropertyValue": 158700,
+    "population": 158152,
+    "populationToPropertyValueRatio": 0.9965469439193447
+  },
+  {
+    "place": "Stockton, CA",
+    "medianPropertyValue": 317700,
+    "population": 312682,
+    "populationToPropertyValueRatio": 0.9842052250550835
+  },
+  {
+    "place": "Seattle, WA",
+    "medianPropertyValue": 767000,
+    "population": 753655,
+    "populationToPropertyValueRatio": 0.9826010430247718
+  },
+  {
+    "place": "Spokane, WA",
+    "medianPropertyValue": 228500,
+    "population": 222082,
+    "populationToPropertyValueRatio": 0.9719124726477024
+  },
+  {
+    "place": "Newport News, VA",
+    "medianPropertyValue": 186600,
+    "population": 179225,
+    "populationToPropertyValueRatio": 0.9604769560557342
+  },
+  {
+    "place": "Waco, TX",
+    "medianPropertyValue": 145500,
+    "population": 139245,
+    "populationToPropertyValueRatio": 0.9570103092783505
+  },
+  {
+    "place": "Wichita Falls, TX",
+    "medianPropertyValue": 111200,
+    "population": 104677,
+    "populationToPropertyValueRatio": 0.941339928057554
+  },
+  {
+    "place": "Madison, WI",
+    "medianPropertyValue": 275900,
+    "population": 259673,
+    "populationToPropertyValueRatio": 0.9411852120333454
+  },
+  {
+    "place": "Aurora, IL",
+    "medianPropertyValue": 211400,
+    "population": 198827,
+    "populationToPropertyValueRatio": 0.9405250709555345
+  },
+  {
+    "place": "Grand Prairie, TX",
+    "medianPropertyValue": 208200,
+    "population": 194522,
+    "populationToPropertyValueRatio": 0.9343035542747359
+  },
+  {
+    "place": "Springfield, MA",
+    "medianPropertyValue": 165800,
+    "population": 153599,
+    "populationToPropertyValueRatio": 0.9264113389626055
+  },
+  {
+    "place": "Beaumont, TX",
+    "medianPropertyValue": 126200,
+    "population": 116822,
+    "populationToPropertyValueRatio": 0.925689381933439
+  },
+  {
+    "place": "Richmond, VA",
+    "medianPropertyValue": 249500,
+    "population": 230436,
+    "populationToPropertyValueRatio": 0.9235911823647295
+  },
+  {
+    "place": "Chattanooga, TN",
+    "medianPropertyValue": 198300,
+    "population": 182803,
+    "populationToPropertyValueRatio": 0.9218507312153303
+  },
+  {
+    "place": "Anchorage, AK",
+    "medianPropertyValue": 314600,
+    "population": 288000,
+    "populationToPropertyValueRatio": 0.9154481881754609
+  },
+  {
+    "place": "Warren, MI",
+    "medianPropertyValue": 147100,
+    "population": 133944,
+    "populationToPropertyValueRatio": 0.9105642420122366
+  },
+  {
+    "place": "Cedar Rapids, IA",
+    "medianPropertyValue": 146700,
+    "population": 133563,
+    "populationToPropertyValueRatio": 0.9104498977505112
+  },
+  {
+    "place": "Independence, MO",
+    "medianPropertyValue": 129100,
+    "population": 116673,
+    "populationToPropertyValueRatio": 0.903741285824942
+  },
+  {
+    "place": "Abilene, TX",
+    "medianPropertyValue": 138400,
+    "population": 123201,
+    "populationToPropertyValueRatio": 0.8901806358381503
+  },
+  {
+    "place": "Tallahassee, FL",
+    "medianPropertyValue": 219700,
+    "population": 194503,
+    "populationToPropertyValueRatio": 0.8853117888029131
+  },
+  {
+    "place": "North Las Vegas, NV",
+    "medianPropertyValue": 285200,
+    "population": 251984,
+    "populationToPropertyValueRatio": 0.8835343618513324
+  },
+  {
+    "place": "Peoria, IL",
+    "medianPropertyValue": 124600,
+    "population": 109936,
+    "populationToPropertyValueRatio": 0.8823113964686998
+  },
+  {
+    "place": "Savannah, GA",
+    "medianPropertyValue": 164100,
+    "population": 144457,
+    "populationToPropertyValueRatio": 0.8802985984156002
+  },
+  {
+    "place": "Henderson, NV",
+    "medianPropertyValue": 371500,
+    "population": 320190,
+    "populationToPropertyValueRatio": 0.8618842530282638
+  },
+  {
+    "place": "Sunrise Manor, NV",
+    "medianPropertyValue": 226400,
+    "population": 192968,
+    "populationToPropertyValueRatio": 0.8523321554770318
+  },
+  {
+    "place": "Allentown, PA",
+    "medianPropertyValue": 144000,
+    "population": 121441,
+    "populationToPropertyValueRatio": 0.8433402777777778
+  },
+  {
+    "place": "Chesapeake, VA",
+    "medianPropertyValue": 290900,
+    "population": 244835,
+    "populationToPropertyValueRatio": 0.8416466139566862
+  },
+  {
+    "place": "Paradise, NV",
+    "medianPropertyValue": 282800,
+    "population": 237899,
+    "populationToPropertyValueRatio": 0.8412270155586987
+  },
+  {
+    "place": "Sioux Falls, SD",
+    "medianPropertyValue": 218900,
+    "population": 183799,
+    "populationToPropertyValueRatio": 0.8396482412060301
+  },
+  {
+    "place": "Port St. Lucie, FL",
+    "medianPropertyValue": 244900,
+    "population": 201858,
+    "populationToPropertyValueRatio": 0.8242466312780726
+  },
+  {
+    "place": "Mesquite, TX",
+    "medianPropertyValue": 172600,
+    "population": 140795,
+    "populationToPropertyValueRatio": 0.8157300115874855
+  },
+  {
+    "place": "Waterbury, CT",
+    "medianPropertyValue": 132300,
+    "population": 107577,
+    "populationToPropertyValueRatio": 0.8131292517006803
+  },
+  {
+    "place": "Riverside, CA",
+    "medianPropertyValue": 411000,
+    "population": 331369,
+    "populationToPropertyValueRatio": 0.806250608272506
+  },
+  {
+    "place": "Hialeah, FL",
+    "medianPropertyValue": 290900,
+    "population": 233362,
+    "populationToPropertyValueRatio": 0.802206943966999
+  },
+  {
+    "place": "Springfield, IL",
+    "medianPropertyValue": 143200,
+    "population": 114171,
+    "populationToPropertyValueRatio": 0.7972835195530726
+  },
+  {
+    "place": "Plano, TX",
+    "medianPropertyValue": 361000,
+    "population": 285849,
+    "populationToPropertyValueRatio": 0.791825484764543
+  },
+  {
+    "place": "Edinburg, TX",
+    "medianPropertyValue": 128500,
+    "population": 101168,
+    "populationToPropertyValueRatio": 0.7872996108949416
+  },
+  {
+    "place": "Cape Coral, FL",
+    "medianPropertyValue": 249600,
+    "population": 194504,
+    "populationToPropertyValueRatio": 0.7792628205128205
+  },
+  {
+    "place": "Chandler, AZ",
+    "medianPropertyValue": 342200,
+    "population": 261149,
+    "populationToPropertyValueRatio": 0.7631472822910579
+  },
+  {
+    "place": "Providence, RI",
+    "medianPropertyValue": 237200,
+    "population": 179875,
+    "populationToPropertyValueRatio": 0.7583263069139966
+  },
+  {
+    "place": "San Bernardino, CA",
+    "medianPropertyValue": 285000,
+    "population": 215780,
+    "populationToPropertyValueRatio": 0.7571228070175439
+  },
+  {
+    "place": "Odessa, TX",
+    "medianPropertyValue": 163200,
+    "population": 123163,
+    "populationToPropertyValueRatio": 0.7546752450980392
+  },
+  {
+    "place": "Long Beach, CA",
+    "medianPropertyValue": 614400,
+    "population": 462645,
+    "populationToPropertyValueRatio": 0.7530029296875
+  },
+  {
+    "place": "Worcester, MA",
+    "medianPropertyValue": 249600,
+    "population": 185421,
+    "populationToPropertyValueRatio": 0.7428725961538462
+  },
+  {
+    "place": "Bridgeport, CT",
+    "medianPropertyValue": 194800,
+    "population": 144365,
+    "populationToPropertyValueRatio": 0.7410934291581108
+  },
+  {
+    "place": "Davenport, IA",
+    "medianPropertyValue": 137700,
+    "population": 101591,
+    "populationToPropertyValueRatio": 0.7377705156136529
+  },
+  {
+    "place": "Boise City, ID",
+    "medianPropertyValue": 310900,
+    "population": 228965,
+    "populationToPropertyValueRatio": 0.7364586683821165
+  },
+  {
+    "place": "Lehigh Acres, FL",
+    "medianPropertyValue": 183800,
+    "population": 134667,
+    "populationToPropertyValueRatio": 0.7326822633297062
+  },
+  {
+    "place": "San Francisco, CA",
+    "medianPropertyValue": 1217500,
+    "population": 881549,
+    "populationToPropertyValueRatio": 0.724064887063655
+  },
+  {
+    "place": "Joliet, IL",
+    "medianPropertyValue": 205600,
+    "population": 148806,
+    "populationToPropertyValueRatio": 0.7237645914396887
+  },
+  {
+    "place": "Gainesville, FL",
+    "medianPropertyValue": 187200,
+    "population": 133990,
+    "populationToPropertyValueRatio": 0.715758547008547
+  },
+  {
+    "place": "Spring Valley, NV",
+    "medianPropertyValue": 311000,
+    "population": 222372,
+    "populationToPropertyValueRatio": 0.7150225080385852
+  },
+  {
+    "place": "High Point, NC",
+    "medianPropertyValue": 157800,
+    "population": 111756,
+    "populationToPropertyValueRatio": 0.708212927756654
+  },
+  {
+    "place": "Hartford, CT",
+    "medianPropertyValue": 173500,
+    "population": 122107,
+    "populationToPropertyValueRatio": 0.7037867435158501
+  },
+  {
+    "place": "Pueblo, CO",
+    "medianPropertyValue": 159800,
+    "population": 112357,
+    "populationToPropertyValueRatio": 0.7031101376720901
+  },
+  {
+    "place": "Hampton, VA",
+    "medianPropertyValue": 193500,
+    "population": 134510,
+    "populationToPropertyValueRatio": 0.6951421188630491
+  },
+  {
+    "place": "Gilbert, AZ",
+    "medianPropertyValue": 372500,
+    "population": 254115,
+    "populationToPropertyValueRatio": 0.6821879194630872
+  },
+  {
+    "place": "Green Bay, WI",
+    "medianPropertyValue": 154700,
+    "population": 104565,
+    "populationToPropertyValueRatio": 0.6759211376858436
+  },
+  {
+    "place": "Reno, NV",
+    "medianPropertyValue": 378600,
+    "population": 255624,
+    "populationToPropertyValueRatio": 0.6751822503961965
+  },
+  {
+    "place": "Modesto, CA",
+    "medianPropertyValue": 324100,
+    "population": 215196,
+    "populationToPropertyValueRatio": 0.6639802530083307
+  },
+  {
+    "place": "New Haven, CT",
+    "medianPropertyValue": 198200,
+    "population": 130257,
+    "populationToPropertyValueRatio": 0.6571997981836529
+  },
+  {
+    "place": "Columbia, SC",
+    "medianPropertyValue": 201500,
+    "population": 131323,
+    "populationToPropertyValueRatio": 0.651727047146402
+  },
+  {
+    "place": "Spring Hill, FL",
+    "medianPropertyValue": 174800,
+    "population": 113787,
+    "populationToPropertyValueRatio": 0.6509553775743707
+  },
+  {
+    "place": "Tyler, TX",
+    "medianPropertyValue": 164700,
+    "population": 106991,
+    "populationToPropertyValueRatio": 0.6496114146933819
+  },
+  {
+    "place": "Athens-Clarke County unified government (balance), GA",
+    "medianPropertyValue": 195500,
+    "population": 126718,
+    "populationToPropertyValueRatio": 0.6481739130434783
+  },
+  {
+    "place": "Broken Arrow, OK",
+    "medianPropertyValue": 172100,
+    "population": 110715,
+    "populationToPropertyValueRatio": 0.6433178384660081
+  },
+  {
+    "place": "Overland Park, KS",
+    "medianPropertyValue": 306300,
+    "population": 195483,
+    "populationToPropertyValueRatio": 0.6382076395690499
+  },
+  {
+    "place": "Tacoma, WA",
+    "medianPropertyValue": 344500,
+    "population": 217834,
+    "populationToPropertyValueRatio": 0.6323193033381712
+  },
+  {
+    "place": "Palm Bay, FL",
+    "medianPropertyValue": 184600,
+    "population": 115560,
+    "populationToPropertyValueRatio": 0.6260021668472373
+  },
+  {
+    "place": "Las Cruces, NM",
+    "medianPropertyValue": 165300,
+    "population": 103436,
+    "populationToPropertyValueRatio": 0.6257471264367817
+  },
+  {
+    "place": "Sterling Heights, MI",
+    "medianPropertyValue": 212500,
+    "population": 132429,
+    "populationToPropertyValueRatio": 0.6231952941176471
+  },
+  {
+    "place": "Lafayette, LA",
+    "medianPropertyValue": 202600,
+    "population": 126199,
+    "populationToPropertyValueRatio": 0.6228973346495558
+  },
+  {
+    "place": "Lakeland, FL",
+    "medianPropertyValue": 180500,
+    "population": 112142,
+    "populationToPropertyValueRatio": 0.6212853185595568
+  },
+  {
+    "place": "Jersey City, NJ",
+    "medianPropertyValue": 424900,
+    "population": 262075,
+    "populationToPropertyValueRatio": 0.6167921863967992
+  },
+  {
+    "place": "North Charleston, SC",
+    "medianPropertyValue": 200000,
+    "population": 122400,
+    "populationToPropertyValueRatio": 0.612
+  },
+  {
+    "place": "Norman, OK",
+    "medianPropertyValue": 205100,
+    "population": 124867,
+    "populationToPropertyValueRatio": 0.6088103364212579
+  },
+  {
+    "place": "Salem, OR",
+    "medianPropertyValue": 286600,
+    "population": 174377,
+    "populationToPropertyValueRatio": 0.6084333565945569
+  },
+  {
+    "place": "Moreno Valley, CA",
+    "medianPropertyValue": 350700,
+    "population": 213064,
+    "populationToPropertyValueRatio": 0.6075392072996864
+  },
+  {
+    "place": "Tempe, AZ",
+    "medianPropertyValue": 323600,
+    "population": 195816,
+    "populationToPropertyValueRatio": 0.6051174289245983
+  },
+  {
+    "place": "Santa Ana, CA",
+    "medianPropertyValue": 558400,
+    "population": 332332,
+    "populationToPropertyValueRatio": 0.5951504297994269
+  },
+  {
+    "place": "Peoria, AZ",
+    "medianPropertyValue": 307800,
+    "population": 175960,
+    "populationToPropertyValueRatio": 0.5716699155295647
+  },
+  {
+    "place": "Elgin, IL",
+    "medianPropertyValue": 194500,
+    "population": 110889,
+    "populationToPropertyValueRatio": 0.5701233933161953
+  },
+  {
+    "place": "Denton, TX",
+    "medianPropertyValue": 249000,
+    "population": 141522,
+    "populationToPropertyValueRatio": 0.5683614457831325
+  },
+  {
+    "place": "Columbia, MO",
+    "medianPropertyValue": 218100,
+    "population": 123204,
+    "populationToPropertyValueRatio": 0.5648968363136176
+  },
+  {
+    "place": "McKinney, TX",
+    "medianPropertyValue": 353700,
+    "population": 199174,
+    "populationToPropertyValueRatio": 0.5631156347186882
+  },
+  {
+    "place": "Anaheim, CA",
+    "medianPropertyValue": 630500,
+    "population": 350351,
+    "populationToPropertyValueRatio": 0.5556716891356067
+  },
+  {
+    "place": "Lancaster, CA",
+    "medianPropertyValue": 284100,
+    "population": 157604,
+    "populationToPropertyValueRatio": 0.5547483280535023
+  },
+  {
+    "place": "Paterson, NJ",
+    "medianPropertyValue": 266000,
+    "population": 145227,
+    "populationToPropertyValueRatio": 0.5459661654135338
+  },
+  {
+    "place": "Vancouver, WA",
+    "medianPropertyValue": 339800,
+    "population": 184452,
+    "populationToPropertyValueRatio": 0.5428251912889935
+  },
+  {
+    "place": "Midland, TX",
+    "medianPropertyValue": 270200,
+    "population": 146042,
+    "populationToPropertyValueRatio": 0.5404959289415248
+  },
+  {
+    "place": "Brandon, FL",
+    "medianPropertyValue": 217300,
+    "population": 116829,
+    "populationToPropertyValueRatio": 0.5376392084675564
+  },
+  {
+    "place": "Murfreesboro, TN",
+    "medianPropertyValue": 273500,
+    "population": 146912,
+    "populationToPropertyValueRatio": 0.5371553930530164
+  },
+  {
+    "place": "Oakland, CA",
+    "medianPropertyValue": 807600,
+    "population": 433044,
+    "populationToPropertyValueRatio": 0.5362109955423477
+  },
+  {
+    "place": "Pembroke Pines, FL",
+    "medianPropertyValue": 324200,
+    "population": 173591,
+    "populationToPropertyValueRatio": 0.5354441702652684
+  },
+  {
+    "place": "Salt Lake City, UT",
+    "medianPropertyValue": 378300,
+    "population": 200546,
+    "populationToPropertyValueRatio": 0.5301242400211472
+  },
+  {
+    "place": "Hollywood, FL",
+    "medianPropertyValue": 292300,
+    "population": 154802,
+    "populationToPropertyValueRatio": 0.5295997263085871
+  },
+  {
+    "place": "Enterprise, NV",
+    "medianPropertyValue": 362300,
+    "population": 191871,
+    "populationToPropertyValueRatio": 0.5295914987579354
+  },
+  {
+    "place": "Metairie, LA",
+    "medianPropertyValue": 246600,
+    "population": 130427,
+    "populationToPropertyValueRatio": 0.5289010543390106
+  },
+  {
+    "place": "Surprise, AZ",
+    "medianPropertyValue": 269900,
+    "population": 141674,
+    "populationToPropertyValueRatio": 0.5249129307150796
+  },
+  {
+    "place": "Eugene, OR",
+    "medianPropertyValue": 329000,
+    "population": 172614,
+    "populationToPropertyValueRatio": 0.524662613981763
+  },
+  {
+    "place": "Fargo, ND",
+    "medianPropertyValue": 236800,
+    "population": 123736,
+    "populationToPropertyValueRatio": 0.5225337837837838
+  },
+  {
+    "place": "Clearwater, FL",
+    "medianPropertyValue": 224700,
+    "population": 116938,
+    "populationToPropertyValueRatio": 0.5204183355585225
+  },
+  {
+    "place": "Rochester, MN",
+    "medianPropertyValue": 229800,
+    "population": 118924,
+    "populationToPropertyValueRatio": 0.5175108790252393
+  },
+  {
+    "place": "Olathe, KS",
+    "medianPropertyValue": 273400,
+    "population": 140557,
+    "populationToPropertyValueRatio": 0.5141075347476225
+  },
+  {
+    "place": "Fontana, CA",
+    "medianPropertyValue": 418000,
+    "population": 214557,
+    "populationToPropertyValueRatio": 0.5132942583732057
+  },
+  {
+    "place": "Visalia, CA",
+    "medianPropertyValue": 264000,
+    "population": 134608,
+    "populationToPropertyValueRatio": 0.5098787878787879
+  },
+  {
+    "place": "Fort Lauderdale, FL",
+    "medianPropertyValue": 359200,
+    "population": 182434,
+    "populationToPropertyValueRatio": 0.5078897550111359
+  },
+  {
+    "place": "Tuscaloosa, AL",
+    "medianPropertyValue": 200200,
+    "population": 101133,
+    "populationToPropertyValueRatio": 0.5051598401598402
+  },
+  {
+    "place": "Chula Vista, CA",
+    "medianPropertyValue": 546400,
+    "population": 274485,
+    "populationToPropertyValueRatio": 0.502351756954612
+  },
+  {
+    "place": "West Valley City, UT",
+    "medianPropertyValue": 273200,
+    "population": 135255,
+    "populationToPropertyValueRatio": 0.49507686676427526
+  },
+  {
+    "place": "Carrollton, TX",
+    "medianPropertyValue": 282300,
+    "population": 139272,
+    "populationToPropertyValueRatio": 0.49334750265674815
+  },
+  {
+    "place": "Pearland, TX",
+    "medianPropertyValue": 269500,
+    "population": 131448,
+    "populationToPropertyValueRatio": 0.48774768089053805
+  },
+  {
+    "place": "Scottsdale, AZ",
+    "medianPropertyValue": 534300,
+    "population": 258064,
+    "populationToPropertyValueRatio": 0.48299457233763804
+  },
+  {
+    "place": "Palmdale, CA",
+    "medianPropertyValue": 325000,
+    "population": 155065,
+    "populationToPropertyValueRatio": 0.4771230769230769
+  },
+  {
+    "place": "Yonkers, NY",
+    "medianPropertyValue": 422700,
+    "population": 200362,
+    "populationToPropertyValueRatio": 0.4740052046368583
+  },
+  {
+    "place": "Victorville, CA",
+    "medianPropertyValue": 258900,
+    "population": 122399,
+    "populationToPropertyValueRatio": 0.4727655465430668
+  },
+  {
+    "place": "Billings, MT",
+    "medianPropertyValue": 232700,
+    "population": 109577,
+    "populationToPropertyValueRatio": 0.47089385474860335
+  },
+  {
+    "place": "Round Rock, TX",
+    "medianPropertyValue": 288700,
+    "population": 133435,
+    "populationToPropertyValueRatio": 0.4621925874610322
+  },
+  {
+    "place": "Urban Honolulu, HI",
+    "medianPropertyValue": 754700,
+    "population": 345055,
+    "populationToPropertyValueRatio": 0.4572081621836491
+  },
+  {
+    "place": "Pompano Beach, FL",
+    "medianPropertyValue": 245400,
+    "population": 112122,
+    "populationToPropertyValueRatio": 0.4568948655256724
+  },
+  {
+    "place": "Miami Gardens, FL",
+    "medianPropertyValue": 241100,
+    "population": 110003,
+    "populationToPropertyValueRatio": 0.4562546661136458
+  },
+  {
+    "place": "Frisco, TX",
+    "medianPropertyValue": 439900,
+    "population": 200513,
+    "populationToPropertyValueRatio": 0.4558149579449875
+  },
+  {
+    "place": "Wilmington, NC",
+    "medianPropertyValue": 273600,
+    "population": 123728,
+    "populationToPropertyValueRatio": 0.45222222222222225
+  },
+  {
+    "place": "Elizabeth, NJ",
+    "medianPropertyValue": 290200,
+    "population": 129215,
+    "populationToPropertyValueRatio": 0.44526188835286007
+  },
+  {
+    "place": "Manchester, NH",
+    "medianPropertyValue": 253900,
+    "population": 112658,
+    "populationToPropertyValueRatio": 0.44371012209531313
+  },
+  {
+    "place": "Lewisville, TX",
+    "medianPropertyValue": 244700,
+    "population": 108562,
+    "populationToPropertyValueRatio": 0.4436534532080098
+  },
+  {
+    "place": "Cary, NC",
+    "medianPropertyValue": 397900,
+    "population": 171143,
+    "populationToPropertyValueRatio": 0.4301156069364162
+  },
+  {
+    "place": "Ontario, CA",
+    "medianPropertyValue": 435500,
+    "population": 184999,
+    "populationToPropertyValueRatio": 0.42479678530424797
+  },
+  {
+    "place": "San Tan Valley, AZ",
+    "medianPropertyValue": 237900,
+    "population": 100732,
+    "populationToPropertyValueRatio": 0.4234216057166877
+  },
+  {
+    "place": "Spokane Valley, WA",
+    "medianPropertyValue": 239900,
+    "population": 101075,
+    "populationToPropertyValueRatio": 0.4213213839099625
+  },
+  {
+    "place": "Oxnard, CA",
+    "medianPropertyValue": 497300,
+    "population": 208875,
+    "populationToPropertyValueRatio": 0.42001809772772974
+  },
+  {
+    "place": "Miramar, FL",
+    "medianPropertyValue": 336500,
+    "population": 141196,
+    "populationToPropertyValueRatio": 0.4196017830609213
+  },
+  {
+    "place": "West Palm Beach, FL",
+    "medianPropertyValue": 267800,
+    "population": 111952,
+    "populationToPropertyValueRatio": 0.4180433159073936
+  },
+  {
+    "place": "College Station, TX",
+    "medianPropertyValue": 286500,
+    "population": 117911,
+    "populationToPropertyValueRatio": 0.4115567190226876
+  },
+  {
+    "place": "League City, TX",
+    "medianPropertyValue": 267500,
+    "population": 106730,
+    "populationToPropertyValueRatio": 0.3989906542056075
+  },
+  {
+    "place": "Fort Collins, CO",
+    "medianPropertyValue": 428900,
+    "population": 170245,
+    "populationToPropertyValueRatio": 0.396934017253439
+  },
+  {
+    "place": "Charleston, SC",
+    "medianPropertyValue": 363600,
+    "population": 143151,
+    "populationToPropertyValueRatio": 0.3937046204620462
+  },
+  {
+    "place": "Elk Grove, CA",
+    "medianPropertyValue": 462300,
+    "population": 174791,
+    "populationToPropertyValueRatio": 0.37808998485831713
+  },
+  {
+    "place": "Lowell, MA",
+    "medianPropertyValue": 293900,
+    "population": 110990,
+    "populationToPropertyValueRatio": 0.3776454576386526
+  },
+  {
+    "place": "Thornton, CO",
+    "medianPropertyValue": 376900,
+    "population": 141454,
+    "populationToPropertyValueRatio": 0.375309100557177
+  },
+  {
+    "place": "Richardson, TX",
+    "medianPropertyValue": 330700,
+    "population": 121331,
+    "populationToPropertyValueRatio": 0.3668914423949199
+  },
+  {
+    "place": "Lakewood, CO",
+    "medianPropertyValue": 432200,
+    "population": 157917,
+    "populationToPropertyValueRatio": 0.3653794539565016
+  },
+  {
+    "place": "Santa Clarita, CA",
+    "medianPropertyValue": 584400,
+    "population": 212975,
+    "populationToPropertyValueRatio": 0.36443360711841205
+  },
+  {
+    "place": "Greeley, CO",
+    "medianPropertyValue": 305100,
+    "population": 108650,
+    "populationToPropertyValueRatio": 0.35611274991805963
+  },
+  {
+    "place": "Naperville, IL",
+    "medianPropertyValue": 423000,
+    "population": 149640,
+    "populationToPropertyValueRatio": 0.353758865248227
+  },
+  {
+    "place": "Provo, UT",
+    "medianPropertyValue": 335700,
+    "population": 116616,
+    "populationToPropertyValueRatio": 0.3473815907059875
+  },
+  {
+    "place": "West Jordan, UT",
+    "medianPropertyValue": 337600,
+    "population": 116482,
+    "populationToPropertyValueRatio": 0.3450296208530806
+  },
+  {
+    "place": "Meridian, ID",
+    "medianPropertyValue": 331600,
+    "population": 114161,
+    "populationToPropertyValueRatio": 0.344273220747889
+  },
+  {
+    "place": "Sugar Land, TX",
+    "medianPropertyValue": 345100,
+    "population": 118500,
+    "populationToPropertyValueRatio": 0.3433787308026659
+  },
+  {
+    "place": "Pomona, CA",
+    "medianPropertyValue": 447600,
+    "population": 151696,
+    "populationToPropertyValueRatio": 0.3389097408400357
+  },
+  {
+    "place": "Coral Springs, FL",
+    "medianPropertyValue": 401700,
+    "population": 133765,
+    "populationToPropertyValueRatio": 0.33299726163803833
+  },
+  {
+    "place": "Rancho Cucamonga, CA",
+    "medianPropertyValue": 536500,
+    "population": 177614,
+    "populationToPropertyValueRatio": 0.3310605778191985
+  },
+  {
+    "place": "Corona, CA",
+    "medianPropertyValue": 519800,
+    "population": 169854,
+    "populationToPropertyValueRatio": 0.32676798768757215
+  },
+  {
+    "place": "Oceanside, CA",
+    "medianPropertyValue": 539000,
+    "population": 175762,
+    "populationToPropertyValueRatio": 0.3260890538033395
+  },
+  {
+    "place": "Salinas, CA",
+    "medianPropertyValue": 478800,
+    "population": 155473,
+    "populationToPropertyValueRatio": 0.3247138680033417
+  },
+  {
+    "place": "Ann Arbor, MI",
+    "medianPropertyValue": 370100,
+    "population": 119976,
+    "populationToPropertyValueRatio": 0.3241718454471764
+  },
+  {
+    "place": "Gresham, OR",
+    "medianPropertyValue": 337800,
+    "population": 109379,
+    "populationToPropertyValueRatio": 0.32379810538780346
+  },
+  {
+    "place": "Kent, WA",
+    "medianPropertyValue": 413600,
+    "population": 132320,
+    "populationToPropertyValueRatio": 0.31992263056092846
+  },
+  {
+    "place": "Clovis, CA",
+    "medianPropertyValue": 360400,
+    "population": 114582,
+    "populationToPropertyValueRatio": 0.3179300776914539
+  },
+  {
+    "place": "Allen, TX",
+    "medianPropertyValue": 335800,
+    "population": 105630,
+    "populationToPropertyValueRatio": 0.3145622394282311
+  },
+  {
+    "place": "Arlington, VA",
+    "medianPropertyValue": 759000,
+    "population": 236842,
+    "populationToPropertyValueRatio": 0.31204479578392624
+  },
+  {
+    "place": "Davie, FL",
+    "medianPropertyValue": 345000,
+    "population": 106310,
+    "populationToPropertyValueRatio": 0.3081449275362319
+  },
+  {
+    "place": "Irvine, CA",
+    "medianPropertyValue": 933600,
+    "population": 287387,
+    "populationToPropertyValueRatio": 0.30782669237360755
+  },
+  {
+    "place": "Escondido, CA",
+    "medianPropertyValue": 502600,
+    "population": 151619,
+    "populationToPropertyValueRatio": 0.3016693195384003
+  },
+  {
+    "place": "Sparks, NV",
+    "medianPropertyValue": 352700,
+    "population": 105011,
+    "populationToPropertyValueRatio": 0.29773461865608164
+  },
+  {
+    "place": "Rialto, CA",
+    "medianPropertyValue": 352500,
+    "population": 103540,
+    "populationToPropertyValueRatio": 0.2937304964539007
+  },
+  {
+    "place": "Santa Rosa, CA",
+    "medianPropertyValue": 603100,
+    "population": 176761,
+    "populationToPropertyValueRatio": 0.293087381860388
+  },
+  {
+    "place": "Westminster, CO",
+    "medianPropertyValue": 388100,
+    "population": 113179,
+    "populationToPropertyValueRatio": 0.2916232929657305
+  },
+  {
+    "place": "Roseville, CA",
+    "medianPropertyValue": 487100,
+    "population": 141492,
+    "populationToPropertyValueRatio": 0.2904783412030384
+  },
+  {
+    "place": "Everett, WA",
+    "medianPropertyValue": 385400,
+    "population": 111489,
+    "populationToPropertyValueRatio": 0.28928126621691747
+  },
+  {
+    "place": "Santa Maria, CA",
+    "medianPropertyValue": 373200,
+    "population": 107273,
+    "populationToPropertyValueRatio": 0.28744105037513396
+  },
+  {
+    "place": "Hillsboro, OR",
+    "medianPropertyValue": 382300,
+    "population": 109120,
+    "populationToPropertyValueRatio": 0.2854302903478943
+  },
+  {
+    "place": "Garden Grove, CA",
+    "medianPropertyValue": 603100,
+    "population": 171670,
+    "populationToPropertyValueRatio": 0.2846459956889405
+  },
+  {
+    "place": "Alexandria, VA",
+    "medianPropertyValue": 572500,
+    "population": 159428,
+    "populationToPropertyValueRatio": 0.2784768558951965
+  },
+  {
+    "place": "The Woodlands, TX",
+    "medianPropertyValue": 423200,
+    "population": 117270,
+    "populationToPropertyValueRatio": 0.2771030245746692
+  },
+  {
+    "place": "Vallejo, CA",
+    "medianPropertyValue": 441100,
+    "population": 121692,
+    "populationToPropertyValueRatio": 0.2758830197234187
+  },
+  {
+    "place": "Carmel, IN",
+    "medianPropertyValue": 370400,
+    "population": 101918,
+    "populationToPropertyValueRatio": 0.27515658747300215
+  },
+  {
+    "place": "Chico, CA",
+    "medianPropertyValue": 378100,
+    "population": 103315,
+    "populationToPropertyValueRatio": 0.2732478180375562
+  },
+  {
+    "place": "Arvada, CO",
+    "medianPropertyValue": 443800,
+    "population": 121095,
+    "populationToPropertyValueRatio": 0.27285939612438037
+  },
+  {
+    "place": "Murrieta, CA",
+    "medianPropertyValue": 441400,
+    "population": 116223,
+    "populationToPropertyValueRatio": 0.26330539193475305
+  },
+  {
+    "place": "Arden-Arcade, CA",
+    "medianPropertyValue": 411600,
+    "population": 108227,
+    "populationToPropertyValueRatio": 0.2629421768707483
+  },
+  {
+    "place": "Columbia, MD",
+    "medianPropertyValue": 402200,
+    "population": 104726,
+    "populationToPropertyValueRatio": 0.260382894082546
+  },
+  {
+    "place": "Fairfield, CA",
+    "medianPropertyValue": 452400,
+    "population": 117136,
+    "populationToPropertyValueRatio": 0.258921308576481
+  },
+  {
+    "place": "Jurupa Valley, CA",
+    "medianPropertyValue": 425700,
+    "population": 109525,
+    "populationToPropertyValueRatio": 0.25728212356119334
+  },
+  {
+    "place": "Hayward, CA",
+    "medianPropertyValue": 645900,
+    "population": 159202,
+    "populationToPropertyValueRatio": 0.2464808793930949
+  },
+  {
+    "place": "Glendale, CA",
+    "medianPropertyValue": 821800,
+    "population": 199301,
+    "populationToPropertyValueRatio": 0.24251764419566804
+  },
+  {
+    "place": "Huntington Beach, CA",
+    "medianPropertyValue": 837600,
+    "population": 199228,
+    "populationToPropertyValueRatio": 0.23785577841451766
+  },
+  {
+    "place": "Antioch, CA",
+    "medianPropertyValue": 468800,
+    "population": 111506,
+    "populationToPropertyValueRatio": 0.23785409556313994
+  },
+  {
+    "place": "East Los Angeles, CA",
+    "medianPropertyValue": 506000,
+    "population": 119890,
+    "populationToPropertyValueRatio": 0.23693675889328064
+  },
+  {
+    "place": "Temecula, CA",
+    "medianPropertyValue": 485600,
+    "population": 114751,
+    "populationToPropertyValueRatio": 0.23630766062602965
+  },
+  {
+    "place": "Bend, OR",
+    "medianPropertyValue": 426600,
+    "population": 100430,
+    "populationToPropertyValueRatio": 0.23541959681200186
+  },
+  {
+    "place": "Stamford, CT",
+    "medianPropertyValue": 565100,
+    "population": 129636,
+    "populationToPropertyValueRatio": 0.22940364537250044
+  },
+  {
+    "place": "Sandy Springs, GA",
+    "medianPropertyValue": 481600,
+    "population": 109466,
+    "populationToPropertyValueRatio": 0.22729651162790698
+  },
+  {
+    "place": "Centennial, CO",
+    "medianPropertyValue": 492700,
+    "population": 110911,
+    "populationToPropertyValueRatio": 0.22510858534605235
+  },
+  {
+    "place": "Fremont, CA",
+    "medianPropertyValue": 1086700,
+    "population": 241117,
+    "populationToPropertyValueRatio": 0.2218800036808687
+  },
+  {
+    "place": "Renton, WA",
+    "medianPropertyValue": 461800,
+    "population": 101747,
+    "populationToPropertyValueRatio": 0.22032698137721957
+  },
+  {
+    "place": "Vacaville, CA",
+    "medianPropertyValue": 464300,
+    "population": 100669,
+    "populationToPropertyValueRatio": 0.21681886711178117
+  },
+  {
+    "place": "Concord, CA",
+    "medianPropertyValue": 604300,
+    "population": 129320,
+    "populationToPropertyValueRatio": 0.213999669038557
+  },
+  {
+    "place": "El Cajon, CA",
+    "medianPropertyValue": 484500,
+    "population": 102699,
+    "populationToPropertyValueRatio": 0.21196904024767801
+  },
+  {
+    "place": "Norwalk, CA",
+    "medianPropertyValue": 491600,
+    "population": 103946,
+    "populationToPropertyValueRatio": 0.21144426362896665
+  },
+  {
+    "place": "El Monte, CA",
+    "medianPropertyValue": 558100,
+    "population": 115477,
+    "populationToPropertyValueRatio": 0.20691094785880668
+  },
+  {
+    "place": "Orange, CA",
+    "medianPropertyValue": 679800,
+    "population": 138661,
+    "populationToPropertyValueRatio": 0.20397322741982937
+  },
+  {
+    "place": "Fullerton, CA",
+    "medianPropertyValue": 684500,
+    "population": 138638,
+    "populationToPropertyValueRatio": 0.2025390796201607
+  },
+  {
+    "place": "Simi Valley, CA",
+    "medianPropertyValue": 622600,
+    "population": 125594,
+    "populationToPropertyValueRatio": 0.20172502409251525
+  },
+  {
+    "place": "Richmond, CA",
+    "medianPropertyValue": 572400,
+    "population": 110575,
+    "populationToPropertyValueRatio": 0.19317784765897975
+  },
+  {
+    "place": "Vista, CA",
+    "medianPropertyValue": 540500,
+    "population": 101639,
+    "populationToPropertyValueRatio": 0.1880462534690102
+  },
+  {
+    "place": "Downey, CA",
+    "medianPropertyValue": 619800,
+    "population": 111127,
+    "populationToPropertyValueRatio": 0.1792949338496289
+  },
+  {
+    "place": "Inglewood, CA",
+    "medianPropertyValue": 605000,
+    "population": 108170,
+    "populationToPropertyValueRatio": 0.17879338842975206
+  },
+  {
+    "place": "Torrance, CA",
+    "medianPropertyValue": 835900,
+    "population": 143589,
+    "populationToPropertyValueRatio": 0.17177772460820673
+  },
+  {
+    "place": "San Buenaventura (Ventura), CA",
+    "medianPropertyValue": 638900,
+    "population": 109108,
+    "populationToPropertyValueRatio": 0.17077476913444983
+  },
+  {
+    "place": "West Covina, CA",
+    "medianPropertyValue": 619000,
+    "population": 105114,
+    "populationToPropertyValueRatio": 0.16981260096930534
+  },
+  {
+    "place": "Bellevue, WA",
+    "medianPropertyValue": 920900,
+    "population": 148145,
+    "populationToPropertyValueRatio": 0.1608698012813552
+  },
+  {
+    "place": "Thousand Oaks, CA",
+    "medianPropertyValue": 793100,
+    "population": 126815,
+    "populationToPropertyValueRatio": 0.1598978691211701
+  },
+  {
+    "place": "Pasadena, CA",
+    "medianPropertyValue": 889200,
+    "population": 141040,
+    "populationToPropertyValueRatio": 0.1586144849302744
+  },
+  {
+    "place": "Costa Mesa, CA",
+    "medianPropertyValue": 826000,
+    "population": 113011,
+    "populationToPropertyValueRatio": 0.13681719128329298
+  },
+  {
+    "place": "Cambridge, MA",
+    "medianPropertyValue": 869900,
+    "population": 118925,
+    "populationToPropertyValueRatio": 0.1367111162202552
+  },
+  {
+    "place": "Boulder, CO",
+    "medianPropertyValue": 795000,
+    "population": 105670,
+    "populationToPropertyValueRatio": 0.1329182389937107
+  },
+  {
+    "place": "Carlsbad, CA",
+    "medianPropertyValue": 886500,
+    "population": 115386,
+    "populationToPropertyValueRatio": 0.1301590524534687
+  },
+  {
+    "place": "Burbank, CA",
+    "medianPropertyValue": 826100,
+    "population": 102508,
+    "populationToPropertyValueRatio": 0.12408667231570028
+  },
+  {
+    "place": "Daly City, CA",
+    "medianPropertyValue": 916500,
+    "population": 106294,
+    "populationToPropertyValueRatio": 0.11597817785051828
+  },
+  {
+    "place": "Santa Clara, CA",
+    "medianPropertyValue": 1249100,
+    "population": 130371,
+    "populationToPropertyValueRatio": 0.10437194780241774
+  },
+  {
+    "place": "Berkeley, CA",
+    "medianPropertyValue": 1168300,
+    "population": 121353,
+    "populationToPropertyValueRatio": 0.10387143713087392
+  },
+  {
+    "place": "Sunnyvale, CA",
+    "medianPropertyValue": 1567100,
+    "population": 152710,
+    "populationToPropertyValueRatio": 0.09744751451726118
+  },
+  {
+    "place": "San Mateo, CA",
+    "medianPropertyValue": 1282100,
+    "population": 104438,
+    "populationToPropertyValueRatio": 0.08145854457530614
+  }
+]

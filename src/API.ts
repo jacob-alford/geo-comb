@@ -435,3 +435,63 @@ export const getForeignPopulationByGeographyIdResponse: (
         ),
       ),
     )
+
+///////////////////////////////////////////
+//  Property Value and Population by Place
+///////////////////////////////////////////
+export interface PropertyValueByPlaceParams {
+  year: 'latest'
+  drilldowns: 'Place'
+  measure: 'Property Value,Property Value Moe,Population'
+}
+
+const propertyValueByPlaceParams: PropertyValueByPlaceParams = {
+  year: 'latest',
+  drilldowns: 'Place',
+  measure: 'Property Value,Property Value Moe,Population',
+}
+
+export interface PlaceValuePopulation {
+  'ID Place': string
+  Place: string
+  'ID Year': number
+  Year: string
+  'Property Value': number
+  'Property Value Moe': number | null
+  'Slug Place': string
+  Population: number
+}
+
+interface PropertyValueByPlace {
+  data: ReadonlyArray<PlaceValuePopulation>
+}
+
+const propertyValueByPlace = t.type({
+  data: t.array(
+    t.type({
+      'ID Place': t.string,
+      Place: t.string,
+      'ID Year': t.number,
+      Year: t.string,
+      'Property Value': t.number,
+      'Property Value Moe': t.union([t.null, t.number]),
+      'Slug Place': t.string,
+      Population: t.number,
+    }),
+  ),
+})
+
+export const getPropertyValueByPlace: () => RTE.ReaderTaskEither<
+  Env,
+  REST.RestError,
+  PropertyValueByPlace
+> =
+  () =>
+  ({ get }) =>
+    pipe(
+      get(extendBaseUrl(), propertyValueByPlaceParams),
+      TE.map(a => a.data),
+      TE.chainEitherK(
+        flow(propertyValueByPlace.decode, E.mapLeft(flow(REST.decodeError))),
+      ),
+    )

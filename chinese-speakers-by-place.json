@@ -1,0 +1,114 @@
+[
+  {
+    "chineseSpeakers": 147371,
+    "asianPopulation": 304721,
+    "place": "san-francisco-ca",
+    "chineseSpeakersToAsianPopulationRatio": 0.483626005427916,
+    "populationInStateFromChina": 690995
+  },
+  {
+    "chineseSpeakers": 32287,
+    "asianPopulation": 66872,
+    "place": "boston-ma",
+    "chineseSpeakersToAsianPopulationRatio": 0.48281792080392394,
+    "populationInStateFromChina": 109953
+  },
+  {
+    "chineseSpeakers": 498683,
+    "asianPopulation": 1194869,
+    "place": "new-york-ny",
+    "chineseSpeakersToAsianPopulationRatio": 0.4173537015354821,
+    "populationInStateFromChina": 419011
+  },
+  {
+    "chineseSpeakers": 37706,
+    "asianPopulation": 118944,
+    "place": "philadelphia-pa",
+    "chineseSpeakersToAsianPopulationRatio": 0.31700632230293246,
+    "populationInStateFromChina": 65984
+  },
+  {
+    "chineseSpeakers": 37635,
+    "asianPopulation": 124387,
+    "place": "seattle-wa",
+    "chineseSpeakersToAsianPopulationRatio": 0.30256377274152446,
+    "populationInStateFromChina": 86178
+  },
+  {
+    "chineseSpeakers": 53111,
+    "asianPopulation": 184768,
+    "place": "chicago-il",
+    "chineseSpeakersToAsianPopulationRatio": 0.2874469605126429,
+    "populationInStateFromChina": 84815
+  },
+  {
+    "chineseSpeakers": 79793,
+    "asianPopulation": 383895,
+    "place": "san-jose-ca",
+    "chineseSpeakersToAsianPopulationRatio": 0.20785110511988955,
+    "populationInStateFromChina": 690995
+  },
+  {
+    "chineseSpeakers": 30242,
+    "asianPopulation": 149840,
+    "place": "houston-tx",
+    "chineseSpeakersToAsianPopulationRatio": 0.2018286171916711,
+    "populationInStateFromChina": 115590
+  },
+  {
+    "chineseSpeakers": 10597,
+    "asianPopulation": 53464,
+    "place": "columbus-oh",
+    "chineseSpeakersToAsianPopulationRatio": 0.1982081400568607,
+    "populationInStateFromChina": 35950
+  },
+  {
+    "chineseSpeakers": 18301,
+    "asianPopulation": 93468,
+    "place": "sacramento-ca",
+    "chineseSpeakersToAsianPopulationRatio": 0.19579963195960115,
+    "populationInStateFromChina": 690995
+  },
+  {
+    "chineseSpeakers": 36191,
+    "asianPopulation": 239079,
+    "place": "san-diego-ca",
+    "chineseSpeakersToAsianPopulationRatio": 0.1513767415791433,
+    "populationInStateFromChina": 690995
+  },
+  {
+    "chineseSpeakers": 63323,
+    "asianPopulation": 457600,
+    "place": "los-angeles-ca",
+    "chineseSpeakersToAsianPopulationRatio": 0.1383806818181818,
+    "populationInStateFromChina": 690995
+  },
+  {
+    "chineseSpeakers": 8818,
+    "asianPopulation": 64081,
+    "place": "jersey-city-nj",
+    "chineseSpeakersToAsianPopulationRatio": 0.13760709102542096,
+    "populationInStateFromChina": 82348
+  },
+  {
+    "chineseSpeakers": 6546,
+    "asianPopulation": 49751,
+    "place": "dallas-tx",
+    "chineseSpeakersToAsianPopulationRatio": 0.1315752447186991,
+    "populationInStateFromChina": 115590
+  },
+  {
+    "chineseSpeakers": 4551,
+    "asianPopulation": 54838,
+    "place": "charlotte-nc",
+    "chineseSpeakersToAsianPopulationRatio": 0.0829898975163208,
+    "populationInStateFromChina": 30889
+  },
+  {
+    "chineseSpeakers": 5324,
+    "asianPopulation": 65663,
+    "place": "phoenix-az",
+    "chineseSpeakersToAsianPopulationRatio": 0.08108066947900644,
+    "populationInStateFromChina": 21269
+  }
+]
