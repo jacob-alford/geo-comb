@@ -22,7 +22,8 @@
     "stripInternal": true,
     "module": "commonjs",
     "target": "esnext",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "strictNullChecks": true
   },
   "include": ["src/**/*"]
 }
