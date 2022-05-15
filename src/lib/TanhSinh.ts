@@ -1,3 +1,12 @@
+// ####################################################################################################################
+// ####  Partial port of Ed Kmett's Numeric.Integration.TanhSinh (https://hackage.haskell.org/package/integration) ####
+// ####################################################################################################################
+
+import * as N from 'fp-ts/number'
+import * as RA from 'fp-ts/ReadonlyArray'
+import * as RNEA from 'fp-ts/ReadonlyNonEmptyArray'
+import { pipe } from 'fp-ts/function'
+
 type Int = number
 
 interface Result {
@@ -8,6 +17,8 @@ interface Result {
 
 const w0: number = 0.7853981633974483
 
+const mHuge = Infinity
+
 export const everywhere: <R>(
   method: (f: (t: number) => number) => (y: number) => (s: number) => R,
 ) => (f: (n: number) => number) => R = method => f =>
@@ -17,12 +28,30 @@ export const everywhere: <R>(
   })(-Math.PI / 2)(Math.PI / 2)
 
 export const trap: (
-  nf: ReadonlyArray<number>,
-) => (
   f: (t: number) => number,
-) => (a: number) => (b: number) => ReadonlyArray<Result> =
-  nf => f => a => b => {
+) => (a: number) => (b: number) => RNEA.ReadonlyNonEmptyArray<Result> =
+  f => a => b => {
+    const c = 0.5 * (b - a)
+    const d = 0.5 * (a + b)
+    const res: (i: number) => (e: number) => (k: Int) => Result =
+      i => e => k => ({
+        result: i * c,
+        errorEstimate: e * c,
+        evaluations: 1 + 12 * 2 ** k,
+      })
+    const tr: (xs: ReadonlyArray<TupleNumber>) => number = RA.foldMap(
+      N.MonoidSum,
+    )(([i, w]) => {
+      const ci = c * i
+      return w * (f(d + ci) + f(d - ci))
+    })
+    const i0 = w0 * f(d) + tr(dd0)
+    const i1 = tr(dd1)
+    const logBase: (x: number) => (y: number) => number = x => y =>
+      Math.log(y) / Math.log(x)
     const go: (
+      acc: ReadonlyArray<Result>,
+    ) => (
       k: Int,
     ) => (
       t: number,
@@ -30,10 +59,30 @@ export const trap: (
       oldDelta: number,
     ) => (
       err: number,
-    ) => (ds: ReadonlyArray<ReadonlyArray<[number, number]>>) => number
+    ) => (
+      ds: ReadonlyArray<ReadonlyArray<TupleNumber>>,
+    ) => RNEA.ReadonlyNonEmptyArray<Result> =
+      acc => k => t => oldDelta => err => _ => {
+        if (_.length === 0) return RNEA.of(res(t)(err)(k))
+        const [ds, ...dds] = _
+        const htP = tr(ds)
+        const ht = 0.5 * t
+        const tP = htP + ht
+        const delta = Math.abs(htP - ht)
+        const errP = (() => {
+          if (delta === 0 || oldDelta === 0) return err
+          const r = logBase(oldDelta)(delta)
+          if (1.99 < r && r < 2.01) return delta * delta
+          return delta
+        })()
+        return go(pipe(acc, RA.append(res(tP)(errP)(k))))(k + 1)(tP)(delta)(
+          errP,
+        )(dds)
+      }
+    return go(RA.zero())(0)(i0 + i1)(Math.abs(i1 - i0))(mHuge)(dd)
   }
 
-type TupleNumber = [number, number]
+type TupleNumber = readonly [number, number]
 
 const dd0: ReadonlyArray<TupleNumber> = [
   [0.9513679640727469, 0.11501119725739434],

@@ -1,11 +1,19 @@
+// ######################################################################
+// #### Port of Giry Monad from Haskell by Jared Tobin in Typescript ####
+// #### https://jtobin.io/giry-monad-implementation #####################
+// ######################################################################
+
 import * as Fun from 'fp-ts/Functor'
 import * as Ap from 'fp-ts/Apply'
 import * as Apl from 'fp-ts/Applicative'
 import * as Pt from 'fp-ts/Pointed'
 import * as RA from 'fp-ts/ReadonlyArray'
+import * as RNEA from 'fp-ts/ReadonlyNonEmptyArray'
 import * as Mon from 'fp-ts/Monad'
 import * as N from 'fp-ts/number'
 import { flow, pipe } from 'fp-ts/function'
+
+import { everywhere, trap } from './lib/TanhSinh'
 
 export interface Measure<A> {
   (now: (a: A) => number): number
@@ -55,6 +63,17 @@ export const fromMassFunction: <A>(
     support,
     RA.foldMap(N.MonoidSum)(x => f(x) * g(x)),
   )
+
+export const fromDensityFunction: (
+  d: (n: number) => number,
+) => Measure<number> = d => f => {
+  const quadratureTanhSinh = flow(
+    everywhere(trap),
+    RNEA.last,
+    ({ result }) => result,
+  )
+  return quadratureTanhSinh(x => f(x) * d(x))
+}
 
 // ########################
 // ### Internal ###########
