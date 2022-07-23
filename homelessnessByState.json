@@ -1,0 +1,410 @@
+{
+  "wyoming": {
+    "state": "wyoming",
+    "area": 97818,
+    "population": 579315,
+    "chronicallyHomeless": 14,
+    "chronicallyHomelessAreaRatio": 0.0001431229426077,
+    "chronicallyHomelessPopulationRatio": 0.000024166472471798588
+  },
+  "north-dakota": {
+    "state": "north-dakota",
+    "area": 70704,
+    "population": 755393,
+    "chronicallyHomeless": 37,
+    "chronicallyHomelessAreaRatio": 0.0005233084408237157,
+    "chronicallyHomelessPopulationRatio": 0.00004898112638057276
+  },
+  "mississippi": {
+    "state": "mississippi",
+    "area": 48434,
+    "population": 2984100,
+    "chronicallyHomeless": 61,
+    "chronicallyHomelessAreaRatio": 0.0012594458438287153,
+    "chronicallyHomelessPopulationRatio": 0.000020441674206628463
+  },
+  "new-hampshire": {
+    "state": "new-hampshire",
+    "area": 9351,
+    "population": 1342795,
+    "chronicallyHomeless": 100,
+    "chronicallyHomelessAreaRatio": 0.010694043417816277,
+    "chronicallyHomelessPopulationRatio": 0.00007447153139533584
+  },
+  "south-dakota": {
+    "state": "south-dakota",
+    "area": 77121,
+    "population": 869666,
+    "chronicallyHomeless": 101,
+    "chronicallyHomelessAreaRatio": 0.0013096303211835947,
+    "chronicallyHomelessPopulationRatio": 0.00011613653977504007
+  },
+  "vermont": {
+    "state": "vermont",
+    "area": 9615,
+    "population": 623657,
+    "chronicallyHomeless": 111,
+    "chronicallyHomelessAreaRatio": 0.011544461778471139,
+    "chronicallyHomelessPopulationRatio": 0.00017798244868573592
+  },
+  "delaware": {
+    "state": "delaware",
+    "area": 1954,
+    "population": 961939,
+    "chronicallyHomeless": 123,
+    "chronicallyHomelessAreaRatio": 0.06294779938587512,
+    "chronicallyHomelessPopulationRatio": 0.0001278667358325216
+  },
+  "utah": {
+    "state": "utah",
+    "area": 84904,
+    "population": 3101833,
+    "chronicallyHomeless": 163,
+    "chronicallyHomelessAreaRatio": 0.0019198153208329408,
+    "chronicallyHomelessPopulationRatio": 0.00005254957310725626
+  },
+  "iowa": {
+    "state": "iowa",
+    "area": 56276,
+    "population": 3145711,
+    "chronicallyHomeless": 170,
+    "chronicallyHomelessAreaRatio": 0.0030208259293482125,
+    "chronicallyHomelessPopulationRatio": 0.00005404183664678669
+  },
+  "montana": {
+    "state": "montana",
+    "area": 147046,
+    "population": 1050493,
+    "chronicallyHomeless": 182,
+    "chronicallyHomelessAreaRatio": 0.001237707928131333,
+    "chronicallyHomelessPopulationRatio": 0.0001732519874002016
+  },
+  "west-virginia": {
+    "state": "west-virginia",
+    "area": 24231,
+    "population": 1815857,
+    "chronicallyHomeless": 188,
+    "chronicallyHomelessAreaRatio": 0.007758656266765714,
+    "chronicallyHomelessPopulationRatio": 0.00010353238167983492
+  },
+  "maine": {
+    "state": "maine",
+    "area": 35387,
+    "population": 1335907,
+    "chronicallyHomeless": 189,
+    "chronicallyHomelessAreaRatio": 0.005340944414615537,
+    "chronicallyHomelessPopulationRatio": 0.0001414769141863917
+  },
+  "alaska": {
+    "state": "alaska",
+    "area": 656425,
+    "population": 739795,
+    "chronicallyHomeless": 216,
+    "chronicallyHomelessAreaRatio": 0.00032905510911376015,
+    "chronicallyHomelessPopulationRatio": 0.00029197277624206703
+  },
+  "rhode-island": {
+    "state": "rhode-island",
+    "area": 1545,
+    "population": 1059639,
+    "chronicallyHomeless": 240,
+    "chronicallyHomelessAreaRatio": 0.1553398058252427,
+    "chronicallyHomelessPopulationRatio": 0.00022649222990093795
+  },
+  "kansas": {
+    "state": "kansas",
+    "area": 82282,
+    "population": 2913123,
+    "chronicallyHomeless": 252,
+    "chronicallyHomelessAreaRatio": 0.003062638244087407,
+    "chronicallyHomelessPopulationRatio": 0.00008650510122641577
+  },
+  "wisconsin": {
+    "state": "wisconsin",
+    "area": 65503,
+    "population": 5795483,
+    "chronicallyHomeless": 342,
+    "chronicallyHomelessAreaRatio": 0.005221134909851457,
+    "chronicallyHomelessPopulationRatio": 0.00005901147497111112
+  },
+  "alabama": {
+    "state": "alabama",
+    "area": 52423,
+    "population": 4874747,
+    "chronicallyHomeless": 344,
+    "chronicallyHomelessAreaRatio": 0.006562005226713466,
+    "chronicallyHomelessPopulationRatio": 0.0000705677648501553
+  },
+  "nebraska": {
+    "state": "nebraska",
+    "area": 77358,
+    "population": 1920076,
+    "chronicallyHomeless": 361,
+    "chronicallyHomelessAreaRatio": 0.004666614959021691,
+    "chronicallyHomelessPopulationRatio": 0.00018801339113660084
+  },
+  "kentucky": {
+    "state": "kentucky",
+    "area": 40411,
+    "population": 4454189,
+    "chronicallyHomeless": 383,
+    "chronicallyHomelessAreaRatio": 0.009477617480389004,
+    "chronicallyHomelessPopulationRatio": 0.00008598647250936142
+  },
+  "connecticut": {
+    "state": "connecticut",
+    "area": 5544,
+    "population": 3588184,
+    "chronicallyHomeless": 387,
+    "chronicallyHomelessAreaRatio": 0.0698051948051948,
+    "chronicallyHomelessPopulationRatio": 0.00010785400079817534
+  },
+  "idaho": {
+    "state": "idaho",
+    "area": 83574,
+    "population": 1716943,
+    "chronicallyHomeless": 391,
+    "chronicallyHomelessAreaRatio": 0.004678488525139397,
+    "chronicallyHomelessPopulationRatio": 0.0002277303323406776
+  },
+  "arkansas": {
+    "state": "arkansas",
+    "area": 53182,
+    "population": 3004279,
+    "chronicallyHomeless": 450,
+    "chronicallyHomelessAreaRatio": 0.008461509533300741,
+    "chronicallyHomelessPopulationRatio": 0.00014978635472937102
+  },
+  "indiana": {
+    "state": "indiana",
+    "area": 36420,
+    "population": 6666818,
+    "chronicallyHomeless": 486,
+    "chronicallyHomelessAreaRatio": 0.013344316309719934,
+    "chronicallyHomelessPopulationRatio": 0.0000728983452075638
+  },
+  "nevada": {
+    "state": "nevada",
+    "area": 110567,
+    "population": 2998039,
+    "chronicallyHomeless": 502,
+    "chronicallyHomelessAreaRatio": 0.0045402335235648975,
+    "chronicallyHomelessPopulationRatio": 0.00016744278510052738
+  },
+  "oklahoma": {
+    "state": "oklahoma",
+    "area": 69903,
+    "population": 3930864,
+    "chronicallyHomeless": 578,
+    "chronicallyHomelessAreaRatio": 0.008268600775360142,
+    "chronicallyHomelessPopulationRatio": 0.00014704146467545048
+  },
+  "louisiana": {
+    "state": "louisiana",
+    "area": 51843,
+    "population": 4684333,
+    "chronicallyHomeless": 609,
+    "chronicallyHomelessAreaRatio": 0.011747005381633008,
+    "chronicallyHomelessPopulationRatio": 0.00013000783676139164
+  },
+  "michigan": {
+    "state": "michigan",
+    "area": 96810,
+    "population": 9962311,
+    "chronicallyHomeless": 709,
+    "chronicallyHomelessAreaRatio": 0.00732362359260407,
+    "chronicallyHomelessPopulationRatio": 0.00007116822592669512
+  },
+  "new-mexico": {
+    "state": "new-mexico",
+    "area": 121593,
+    "population": 2088070,
+    "chronicallyHomeless": 712,
+    "chronicallyHomelessAreaRatio": 0.005855600240145403,
+    "chronicallyHomelessPopulationRatio": 0.00034098473710172554
+  },
+  "ohio": {
+    "state": "ohio",
+    "area": 44828,
+    "population": 11658609,
+    "chronicallyHomeless": 725,
+    "chronicallyHomelessAreaRatio": 0.016172927634514143,
+    "chronicallyHomelessPopulationRatio": 0.00006218580621410324
+  },
+  "south-carolina": {
+    "state": "south-carolina",
+    "area": 32007,
+    "population": 5024369,
+    "chronicallyHomeless": 792,
+    "chronicallyHomelessAreaRatio": 0.024744587121567158,
+    "chronicallyHomelessPopulationRatio": 0.00015763173445262478
+  },
+  "minnesota": {
+    "state": "minnesota",
+    "area": 86943,
+    "population": 5576606,
+    "chronicallyHomeless": 813,
+    "chronicallyHomelessAreaRatio": 0.009350954073358408,
+    "chronicallyHomelessPopulationRatio": 0.00014578759912391157
+  },
+  "virginia": {
+    "state": "virginia",
+    "area": 42769,
+    "population": 8470020,
+    "chronicallyHomeless": 864,
+    "chronicallyHomelessAreaRatio": 0.020201547850078327,
+    "chronicallyHomelessPopulationRatio": 0.0001020068429590485
+  },
+  "missouri": {
+    "state": "missouri",
+    "area": 69709,
+    "population": 6113532,
+    "chronicallyHomeless": 883,
+    "chronicallyHomelessAreaRatio": 0.012666944010099126,
+    "chronicallyHomelessPopulationRatio": 0.0001444336923402053
+  },
+  "new-jersey": {
+    "state": "new-jersey",
+    "area": 8722,
+    "population": 9005644,
+    "chronicallyHomeless": 955,
+    "chronicallyHomelessAreaRatio": 0.10949323549644577,
+    "chronicallyHomelessPopulationRatio": 0.00010604460935830908
+  },
+  "georgia": {
+    "state": "georgia",
+    "area": 59441,
+    "population": 10429379,
+    "chronicallyHomeless": 963,
+    "chronicallyHomelessAreaRatio": 0.016200938745983412,
+    "chronicallyHomelessPopulationRatio": 0.00009233531545837964
+  },
+  "north-carolina": {
+    "state": "north-carolina",
+    "area": 53821,
+    "population": 10273419,
+    "chronicallyHomeless": 994,
+    "chronicallyHomelessAreaRatio": 0.018468627487411977,
+    "chronicallyHomelessPopulationRatio": 0.00009675454685533608
+  },
+  "massachusetts": {
+    "state": "massachusetts",
+    "area": 10555,
+    "population": 6859819,
+    "chronicallyHomeless": 1238,
+    "chronicallyHomelessAreaRatio": 0.11729038370440549,
+    "chronicallyHomelessPopulationRatio": 0.00018047123400777776
+  },
+  "tennessee": {
+    "state": "tennessee",
+    "area": 42146,
+    "population": 6715984,
+    "chronicallyHomeless": 1295,
+    "chronicallyHomelessAreaRatio": 0.03072652208987804,
+    "chronicallyHomelessPopulationRatio": 0.0001928235683706215
+  },
+  "illinois": {
+    "state": "illinois",
+    "area": 57918,
+    "population": 12802023,
+    "chronicallyHomeless": 1355,
+    "chronicallyHomelessAreaRatio": 0.023395144859974445,
+    "chronicallyHomelessPopulationRatio": 0.00010584264690041566
+  },
+  "pennsylvania": {
+    "state": "pennsylvania",
+    "area": 46058,
+    "population": 12805537,
+    "chronicallyHomeless": 1372,
+    "chronicallyHomelessAreaRatio": 0.02978852750879326,
+    "chronicallyHomelessPopulationRatio": 0.00010714115308088993
+  },
+  "maryland": {
+    "state": "maryland",
+    "area": 12407,
+    "population": 6052177,
+    "chronicallyHomeless": 1436,
+    "chronicallyHomelessAreaRatio": 0.11574111388732167,
+    "chronicallyHomelessPopulationRatio": 0.00023726999392119564
+  },
+  "arizona": {
+    "state": "arizona",
+    "area": 114006,
+    "population": 7016270,
+    "chronicallyHomeless": 1463,
+    "chronicallyHomelessAreaRatio": 0.012832657930284371,
+    "chronicallyHomelessPopulationRatio": 0.0002085153507490447
+  },
+  "district-of-columbia": {
+    "state": "district-of-columbia",
+    "area": 68,
+    "population": 693972,
+    "chronicallyHomeless": 1470,
+    "chronicallyHomelessAreaRatio": 21.61764705882353,
+    "chronicallyHomelessPopulationRatio": 0.0021182410817727516
+  },
+  "hawaii": {
+    "state": "hawaii",
+    "area": 10932,
+    "population": 1427538,
+    "chronicallyHomeless": 1588,
+    "chronicallyHomelessAreaRatio": 0.14526161727039882,
+    "chronicallyHomelessPopulationRatio": 0.0011124047135697963
+  },
+  "colorado": {
+    "state": "colorado",
+    "area": 104100,
+    "population": 5607154,
+    "chronicallyHomeless": 2126,
+    "chronicallyHomelessAreaRatio": 0.02042267050912584,
+    "chronicallyHomelessPopulationRatio": 0.0003791584821818698
+  },
+  "oregon": {
+    "state": "oregon",
+    "area": 98386,
+    "population": 4142776,
+    "chronicallyHomeless": 3120,
+    "chronicallyHomelessAreaRatio": 0.0317118289187486,
+    "chronicallyHomelessPopulationRatio": 0.0007531181990047253
+  },
+  "texas": {
+    "state": "texas",
+    "area": 268601,
+    "population": 28304596,
+    "chronicallyHomeless": 3497,
+    "chronicallyHomelessAreaRatio": 0.013019311171589085,
+    "chronicallyHomelessPopulationRatio": 0.00012354883991278306
+  },
+  "washington": {
+    "state": "washington",
+    "area": 71303,
+    "population": 7405743,
+    "chronicallyHomeless": 4357,
+    "chronicallyHomelessAreaRatio": 0.06110542333422156,
+    "chronicallyHomelessPopulationRatio": 0.000588327194178896
+  },
+  "florida": {
+    "state": "florida",
+    "area": 65758,
+    "population": 20984400,
+    "chronicallyHomeless": 4915,
+    "chronicallyHomelessAreaRatio": 0.07474375741354664,
+    "chronicallyHomelessPopulationRatio": 0.00023422161224528697
+  },
+  "new-york": {
+    "state": "new-york",
+    "area": 54475,
+    "population": 19849399,
+    "chronicallyHomeless": 5087,
+    "chronicallyHomelessAreaRatio": 0.09338228545204222,
+    "chronicallyHomelessPopulationRatio": 0.00025627979970577446
+  },
+  "california": {
+    "state": "california",
+    "area": 163707,
+    "population": 39536653,
+    "chronicallyHomeless": 35798,
+    "chronicallyHomelessAreaRatio": 0.21867116250374144,
+    "chronicallyHomelessPopulationRatio": 0.0009054383030349079
+  }
+}

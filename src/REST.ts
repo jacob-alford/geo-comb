@@ -26,7 +26,17 @@ export const decodeError: (e: t.Errors) => RestError = error => ({
   error,
 })
 
-export type RestError = ApiError | DecodeError
+export interface ProcError {
+  _tag: 'ProcError'
+  error: string
+}
+
+export const procError: (e: string) => RestError = error => ({
+  _tag: 'ProcError',
+  error,
+})
+
+export type RestError = ApiError | DecodeError | ProcError
 
 export interface FetchMethods {
   get: <P extends object>(
@@ -53,6 +63,8 @@ export const Show: Sh.Show<RestError> = {
       case 'ApiError':
         return JSON.stringify(e.error, null, 2)
       case 'DecodeError':
+        return JSON.stringify(e.error, null, 2)
+      case 'ProcError':
         return JSON.stringify(e.error, null, 2)
     }
   },

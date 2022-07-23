@@ -18,48 +18,74 @@ import * as REST from './REST'
 import * as API from './API'
 import * as FS from './FS'
 
-interface PropertyPlace {
-  place: string
-  medianPropertyValue: number
+import { StatesAndSizeInSqMilesByTitle } from './stateSize'
+
+interface PlaceAreaHomelessness {
+  state: string
+  area: number
   population: number
-  populationToPropertyValueRatio: number
+  chronicallyHomeless: number
+  chronicallyHomelessAreaRatio: number
+  chronicallyHomelessPopulationRatio: number
 }
 
-const propertyPlaceFromApi: (
-  place: API.PlaceValuePopulation,
-) => PropertyPlace = ({
-  Place: place,
-  'Property Value': medianPropertyValue,
-  Population: population,
+const placeAreaHomelessnessFromApi: (
+  place: API.ChronicallyHomelessStateData & { area: number },
+) => PlaceAreaHomelessness = ({
+  Population,
+  'Estimates of Chronically Homeless Individuals': chronicallyHomeless,
+  area,
+  'Slug State': state,
 }) => ({
-  place,
-  medianPropertyValue,
-  population,
-  populationToPropertyValueRatio: population / medianPropertyValue,
+  state,
+  area,
+  population: Population,
+  chronicallyHomeless: chronicallyHomeless!,
+  chronicallyHomelessAreaRatio: chronicallyHomeless! / area,
+  chronicallyHomelessPopulationRatio: chronicallyHomeless! / Population,
 })
 
-const ordPropertyPlace: Ord.Ord<PropertyPlace> = Ord.reverse(
-  pipe(
-    N.Ord,
-    Ord.contramap(
-      ({ populationToPropertyValueRatio }) => populationToPropertyValueRatio,
-    ),
-  ),
+const ordPlaceAreaHomelessness: Ord.Ord<PlaceAreaHomelessness> = pipe(
+  N.Ord,
+  Ord.contramap(({ chronicallyHomeless }) => chronicallyHomeless),
 )
 
 const main: IO.IO<void> = () =>
   pipe(
-    API.getPropertyValueByPlace(),
-    RTE.map(
+    API.getChronicallyHomelessByState(),
+    RTE.chainW(
       flow(
-        ({ data }) => data,
-        RA.filterMap(place =>
+        ({ data }) =>
           pipe(
-            propertyPlaceFromApi(place),
-            O.fromPredicate(({ population }) => population > 100_000),
+            data,
+            RA.filter(
+              ({ 'Estimates of Chronically Homeless Individuals': homeless }) =>
+                homeless !== undefined,
+            ),
+            E.traverseArray(state =>
+              pipe(
+                StatesAndSizeInSqMilesByTitle,
+                RA.findFirst(([stateTitle]) => stateTitle === state.State),
+                O.map(([, stateArea]) =>
+                  Object.assign({}, state, { area: stateArea }),
+                ),
+                O.map(placeAreaHomelessnessFromApi),
+                E.fromOption(() =>
+                  REST.procError(
+                    `No state found for state-id: ${state['ID State']}`,
+                  ),
+                ),
+              ),
+            ),
           ),
-        ),
-        RA.sort(ordPropertyPlace),
+        E.map(RA.sort(ordPlaceAreaHomelessness)),
+        RTE.fromEither,
+      ),
+    ),
+    RTE.map(states =>
+      RR.fromFoldableMap(Sg.first<PlaceAreaHomelessness>(), RA.Foldable)(
+        states,
+        state => [state.state, state],
       ),
     ),
     RTE.fold(
@@ -67,7 +93,7 @@ const main: IO.IO<void> = () =>
       data =>
         pipe(
           FS.writeFile(
-            '../property-values-for-cities.json',
+            '../homelessnessByState.json',
             JSON.stringify(data, null, 2),
           ),
           RTE.fromTaskEither,

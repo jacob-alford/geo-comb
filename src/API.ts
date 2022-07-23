@@ -495,3 +495,67 @@ export const getPropertyValueByPlace: () => RTE.ReaderTaskEither<
         flow(propertyValueByPlace.decode, E.mapLeft(flow(REST.decodeError))),
       ),
     )
+
+///////////////////////////////////////////
+//  Chronically Homeless Individuals By State
+///////////////////////////////////////////
+export interface ChronicallyHomelessByStateParams {
+  drilldowns: 'State'
+  measure: 'Estimates of Chronically Homeless Individuals,Population'
+  year: 2017
+}
+
+const chronicallyHomelessByStateParams: ChronicallyHomelessByStateParams = {
+  drilldowns: 'State',
+  measure: 'Estimates of Chronically Homeless Individuals,Population',
+  year: 2017,
+}
+
+export interface ChronicallyHomelessStateData {
+  'Estimates of Chronically Homeless Individuals'?: number
+  'ID State': string
+  'ID Year': number
+  'Slug State': string
+  State: string
+  Year: string
+  Population: number
+}
+
+interface ChronicallyHomelessByState {
+  data: ReadonlyArray<ChronicallyHomelessStateData>
+}
+
+const chronicallyHomelessByState = t.type({
+  data: t.array(
+    t.type({
+      'Estimates of Chronically Homeless Individuals': t.union([
+        t.number,
+        t.undefined,
+      ]),
+      'ID State': t.string,
+      'ID Year': t.number,
+      'Slug State': t.string,
+      State: t.string,
+      Year: t.string,
+      Population: t.number,
+    }),
+  ),
+})
+
+export const getChronicallyHomelessByState: () => RTE.ReaderTaskEither<
+  Env,
+  REST.RestError,
+  ChronicallyHomelessByState
+> =
+  () =>
+  ({ get }) =>
+    pipe(
+      get(extendBaseUrl(), chronicallyHomelessByStateParams),
+      TE.map(a => a.data),
+      TE.chainEitherK(
+        flow(
+          chronicallyHomelessByState.decode,
+          E.mapLeft(flow(REST.decodeError)),
+        ),
+      ),
+    )
